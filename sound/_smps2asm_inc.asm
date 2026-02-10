@@ -49,112 +49,223 @@ nMaxPSG2			EQU nB6
 	endif
 ; ---------------------------------------------------------------------------
 ; PSG volume envelope equates
-	switch SonicDriverVer
-		case 1
-			enum		fTone_01=$01,fTone_02,fTone_03,fTone_04,fTone_05,fTone_06
-			nextenum	fTone_07,fTone_08,fTone_09
-		case 2
-			enum		fTone_01=$01,fTone_02,fTone_03,fTone_04,fTone_05,fTone_06
-			nextenum	fTone_07,fTone_08,fTone_09,fTone_0A,fTone_0B,fTone_0C
-			nextenum	fTone_0D
-		elsecase;SonicDriverVer>=3
-			enum		sTone_01=$01,sTone_02,sTone_03,sTone_04,sTone_05,sTone_06
-			nextenum	sTone_07,sTone_08,sTone_09,sTone_0A,sTone_0B,sTone_0C
-			nextenum	sTone_0D,sTone_0E,sTone_0F,sTone_10,sTone_11,sTone_12
-			nextenum	sTone_13,sTone_14,sTone_15,sTone_16,sTone_17,sTone_18
-			nextenum	sTone_19,sTone_1A,sTone_1B,sTone_1C,sTone_1D,sTone_1E
-			nextenum	sTone_1F,sTone_20,sTone_21,sTone_22,sTone_23,sTone_24
-			nextenum	sTone_25,sTone_26,sTone_27
-			; For conversions:
-			if SonicDriverVer>=5
-				nextenum	fTone_01,fTone_02,fTone_03,fTone_04,fTone_05,fTone_06
-				nextenum	fTone_07,fTone_08,fTone_09,fTone_0A,fTone_0B,fTone_0C
-				nextenum	fTone_0D
-			endif
-	endcase
+	if SonicDriverVer>5
+sTone_01	=	$01+$0D
+sTone_02	=	$02+$0D
+sTone_03	=	$03+$0D
+sTone_04	=	$04+$0D
+sTone_05	=	$05+$0D
+sTone_06	=	$06+$0D
+sTone_07	=	$07+$0D		; SFX envelope, probably unused in S3K
+sTone_08	=	$08+$0D
+sTone_09	=	$09+$0D
+sTone_0A	=	$0A+$0D
+sTone_0B	=	$0B+$0D		; For FM volume envelopes
+sTone_0C	=	$0C+$0D
+sTone_0D	=	$0D+$0D		; This time it matches 100%
+sTone_0E	=	sTone_01	; Duplicate of 01
+sTone_0F	=	sTone_02	; Duplicate of 02
+sTone_10	=	$10+$0D
+sTone_11	=	$11+$0D
+sTone_12	=	sTone_05	; Duplicate of 05
+sTone_13	=	sTone_06	; Duplicate of 06
+sTone_14	=	$14+$0D		; SFX envelope, probably unused in S3K
+sTone_15	=	sTone_08	; Duplicate of 08
+sTone_16	=	sTone_09	; Duplicate of 09
+sTone_17	=	sTone_0A	; Duplicate of 0A
+sTone_18	=	$18+$0D		; For FM volume envelopes
+sTone_19	=	sTone_0C	; Duplicate of 0C
+sTone_1A	=	$1A+$0D			
+sTone_1B	=	sTone_0C	; Duplicate of 0C
+sTone_1C	=	$1C+$0D
+sTone_1D	=	$1D+$0D
+sTone_1E	=	$1E+$0D
+sTone_1F	=	$1F+$0D
+sTone_20	=	$20+$0D		; This time it matches 100%
+sTone_21	=	$21+$0D
+sTone_22	=	$22+$0D
+sTone_23	=	$23+$0D
+sTone_24	=	$24+$0D
+sTone_25	=	$25+$0D
+sTone_26	=	$26+$0D
+sTone_27	=	$27+$0D
+sTone_04_S3D	=	$28+$0D	; Much longer than the S3K version
+sTone_28	=	$29+$0D		; Exclusive to S3D, only used like once
+    elseif SonicDriverVer>=3
+sTone_01	=	$01
+sTone_02	=	$02
+sTone_03	=	$03
+sTone_04	=	$04
+sTone_05	=	$05
+sTone_06	=	$06
+sTone_07	=	$07			; SFX envelope, probably unused in S3K
+sTone_08	=	$08
+sTone_09	=	$09
+sTone_0A	=	$0A
+sTone_0B	=	$0B			; For FM volume envelopes
+sTone_0C	=	$0C
+sTone_0D	=	$0D			; This time it matches 100%
+sTone_0E	=	sTone_01	; Duplicate of 01
+sTone_0F	=	sTone_02	; Duplicate of 02
+sTone_10	=	$10
+sTone_11	=	$11
+sTone_12	=	sTone_05	; Duplicate of 05
+sTone_13	=	sTone_06	; Duplicate of 06
+sTone_14	=	$14			; SFX envelope, probably unused in S3K
+sTone_15	=	sTone_08	; Duplicate of 08
+sTone_16	=	sTone_09	; Duplicate of 09
+sTone_17	=	sTone_0A	; Duplicate of 0A
+sTone_18	=	$18			; For FM volume envelopes
+sTone_19	=	sTone_0C	; Duplicate of 0C
+sTone_1A	=	$1A
+sTone_1B	=	sTone_0C	; Duplicate of 0C
+sTone_1C	=	$1C
+sTone_1D	=	$1D
+sTone_1E	=	$1E
+sTone_1F	=	$1F
+sTone_20	=	$20			; This time it matches 100%
+sTone_21	=	$21
+sTone_22	=	$22
+sTone_23	=	$23
+sTone_24	=	$24
+sTone_25	=	$25
+sTone_26	=	$26
+sTone_27	=	$27
+sTone_04_S3D	=	$04		; Much longer than the S3K version
+sTone_28	=	$28    		; Exclusive to S3D, only used like once
+   else
+sTone_01    =	$02
+sTone_02    =	$02
+sTone_03    =	$07
+sTone_04    =	$04
+sTone_05    =	$01
+sTone_06    =	$03
+sTone_07    =	$00
+sTone_08    =	$09
+sTone_09    =	$01
+sTone_0A    =	$07
+sTone_0B    =	$00
+sTone_0C    =	$09
+sTone_0D    =	$00
+sTone_0E    =	sTone_01	; Duplicate of 01
+sTone_0F    =	sTone_02	; Duplicate of 02
+	if SonicDriverVer=1
+sTone_10    =	$00			
+	else
+sTone_10    =	$0D			
+	endif
+sTone_11    =	$00			
+sTone_12    =	sTone_05	; Duplicate of 05
+sTone_13    =	sTone_06	; Duplicate of 06
+sTone_14    =	$00			
+sTone_15    =	sTone_08	; Duplicate of 08
+sTone_16    =	sTone_09	; Duplicate of 09
+sTone_17    =	sTone_0A	; Duplicate of 0A
+sTone_18    =	$00			
+sTone_19    =	sTone_0C	; Duplicate of 0C
+sTone_1A    =	sTone_02	; Duplicate of 02
+sTone_1B    =	sTone_0C	; Duplicate of 0C
+sTone_1C    =	$06
+sTone_1D    =	$07
+sTone_1E    =	$02
+sTone_1F    =	$04
+sTone_20    =	$00
+sTone_21    =	$09
+sTone_22    =	$04
+sTone_23    =	$06
+sTone_24    =	$02
+sTone_25    =	$09
+sTone_26    =	$07
+sTone_27    =	$03
+sTone_04_S3D	=	$08
+sTone_28	=	$09
+	endif
+
+fTone_00	=	$00			; SFX envelope, never used for music in S1
+    if SonicDriverVer>=3
+fTone_01    =	sTone_0A    ; 01 -> 0A (close, shorter w/ small fade-in)
+fTone_02    =	$02              
+fTone_03    =	sTone_0C    ; 03 -> 0C (S3K one is shorter)
+fTone_04    =	$04              
+fTone_05    =	sTone_26    ; 05 -> 26 (S3K one is longer)
+fTone_06    =	sTone_1C    ; 06 -> 1C (close)
+fTone_07    =	sTone_03    ; 07 -> 03 (again, S3K one is longer)
+fTone_08    =	sTone_1D    ; 08 -> 1D (more or less close)
+fTone_09    =	sTone_08    ; 09 -> 08 (almost close)
+fTone_0A    =	sTone_26
+fTone_0B    =	sTone_03
+fTone_0C    =	sTone_1D
+    else
+fTone_01    =	$01
+fTone_02    =	$02
+fTone_03    =	$03
+fTone_04    =	$04
+fTone_05    =	$05
+fTone_06    =	$06
+fTone_07    =	$07
+fTone_08    =	$08
+fTone_09    =	$09
+	if SonicDriverVer=1
+fTone_0A    =	$05
+fTone_0B    =	$07
+fTone_0C    =	$08
+	else
+fTone_0A    =	$0A
+fTone_0B    =	$0B
+fTone_0C    =	$0C
+	endif
+	endif
+fTone_0D	=	$0D			; Unused in S2, likely a beta leftover
 ; ---------------------------------------------------------------------------
 ; DAC Equates
-	switch SonicDriverVer
-		case 1
-			enum		dKick=$81,dSnare,dTimpani
-			enum		dHiTimpani=$88,dMidTimpani,dLowTimpani,dVLowTimpani
-		case 2
-			enum		dKick=$81,dSnare,dClap,dScratch,dTimpani,dHiTom,dVLowClap,dHiTimpani,dMidTimpani
-			nextenum	dLowTimpani,dVLowTimpani,dMidTom,dLowTom,dFloorTom,dHiClap
-			nextenum	dMidClap,dLowClap
-		case 3
-			enum		dSnareS3=$81,dHighTom,dMidTomS3,dLowTomS3,dFloorTomS3,dKickS3,dMuffledSnare
-			nextenum	dCrashCymbal,dRideCymbal,dLowMetalHit,dMetalHit,dHighMetalHit
-			nextenum	dHigherMetalHit,dMidMetalHit,dClapS3,dElectricHighTom
-			nextenum	dElectricMidTom,dElectricLowTom,dElectricFloorTom
-			nextenum	dTightSnare,dMidpitchSnare,dLooseSnare,dLooserSnare
-			nextenum	dHiTimpaniS3,dLowTimpaniS3,dMidTimpaniS3,dQuickLooseSnare
-			nextenum	dClick,dPowerKick,dQuickGlassCrash
-			nextenum	dGlassCrashSnare,dGlassCrash,dGlassCrashKick,dQuietGlassCrash
-			nextenum	dOddSnareKick,dKickExtraBass,dComeOn,dDanceSnare,dLooseKick
-			nextenum	dModLooseKick,dWoo,dGo,dSnareGo,dPowerTom,dHiWoodBlock,dLowWoodBlock
-			nextenum	dHiHitDrum,dLowHitDrum,dMetalCrashHit,dEchoedClapHit_S3
-			nextenum	dLowerEchoedClapHit_S3,dHipHopHitKick,dHipHopHitPowerKick
-			nextenum	dBassHey,dDanceStyleKick,dHipHopHitKick2,dHipHopHitKick3
-			nextenum	dReverseFadingWind,dScratchS3,dLooseSnareNoise,dPowerKick2
-			nextenum	dCrashingNoiseWoo,dQuickHit,dKickHey,dPowerKickHit
-			nextenum	dLowPowerKickHit,dLowerPowerKickHit,dLowestPowerKickHit
-		case 4
-			enum		dSnareS3=$81,dHighTom,dMidTomS3,dLowTomS3,dFloorTomS3,dKickS3,dMuffledSnare
-			nextenum	dCrashCymbal,dRideCymbal,dLowMetalHit,dMetalHit,dHighMetalHit
-			nextenum	dHigherMetalHit,dMidMetalHit,dClapS3,dElectricHighTom
-			nextenum	dElectricMidTom,dElectricLowTom,dElectricFloorTom
-			nextenum	dTightSnare,dMidpitchSnare,dLooseSnare,dLooserSnare
-			nextenum	dHiTimpaniS3,dLowTimpaniS3,dMidTimpaniS3,dQuickLooseSnare
-			nextenum	dClick,dPowerKick,dQuickGlassCrash
-			nextenum	dGlassCrashSnare,dGlassCrash,dGlassCrashKick,dQuietGlassCrash
-			nextenum	dOddSnareKick,dKickExtraBass,dComeOn,dDanceSnare,dLooseKick
-			nextenum	dModLooseKick,dWoo,dGo,dSnareGo,dPowerTom,dHiWoodBlock,dLowWoodBlock
-			nextenum	dHiHitDrum,dLowHitDrum,dMetalCrashHit,dEchoedClapHit
-			nextenum	dLowerEchoedClapHit,dHipHopHitKick,dHipHopHitPowerKick
-			nextenum	dBassHey,dDanceStyleKick,dHipHopHitKick2,dHipHopHitKick3
-			nextenum	dReverseFadingWind,dScratchS3,dLooseSnareNoise,dPowerKick2
-			nextenum	dCrashingNoiseWoo,dQuickHit,dKickHey,dPowerKickHit
-			nextenum	dLowPowerKickHit,dLowerPowerKickHit,dLowestPowerKickHit
-		elsecase;SonicDriverVer>=5
-			if (use_s3_samples<>0)||(use_sk_samples<>0)||(use_s3d_samples<>0)
-				enum		dSnareS3=$81,dHighTom,dMidTomS3,dLowTomS3,dFloorTomS3,dKickS3,dMuffledSnare
-				nextenum	dCrashCymbal,dRideCymbal,dLowMetalHit,dMetalHit,dHighMetalHit
-				nextenum	dHigherMetalHit,dMidMetalHit,dClapS3,dElectricHighTom
-				nextenum	dElectricMidTom,dElectricLowTom,dElectricFloorTom
-				nextenum	dTightSnare,dMidpitchSnare,dLooseSnare,dLooserSnare
-				nextenum	dHiTimpaniS3,dLowTimpaniS3,dMidTimpaniS3,dQuickLooseSnare
-				nextenum	dClick,dPowerKick,dQuickGlassCrash
-			endif
-			if (use_s3_samples<>0)||(use_sk_samples<>0)
-				nextenum	dGlassCrashSnare,dGlassCrash,dGlassCrashKick,dQuietGlassCrash
-				nextenum	dOddSnareKick,dKickExtraBass,dComeOn,dDanceSnare,dLooseKick
-				nextenum	dModLooseKick,dWoo,dGo,dSnareGo,dPowerTom,dHiWoodBlock,dLowWoodBlock
-				nextenum	dHiHitDrum,dLowHitDrum,dMetalCrashHit,dEchoedClapHit
-				nextenum	dLowerEchoedClapHit,dHipHopHitKick,dHipHopHitPowerKick
-				nextenum	dBassHey,dDanceStyleKick,dHipHopHitKick2,dHipHopHitKick3
-				nextenum	dReverseFadingWind,dScratchS3,dLooseSnareNoise,dPowerKick2
-				nextenum	dCrashingNoiseWoo,dQuickHit,dKickHey,dPowerKickHit
-				nextenum	dLowPowerKickHit,dLowerPowerKickHit,dLowestPowerKickHit
-			endif
-			; For conversions:
-			if (use_s2_samples<>0)
-				if (use_s3_samples<>0)||(use_sk_samples<>0)||(use_s3d_samples<>0)
-					nextenum	dKick
-				else
-					enum		dKick=$81
-				endif
-				nextenum	dSnare,dClap,dScratch,dTimpani,dHiTom,dVLowClap,dHiTimpani,dMidTimpani
-				nextenum	dLowTimpani,dVLowTimpani,dMidTom,dLowTom,dFloorTom,dHiClap
-				nextenum	dMidClap,dLowClap
-			endif
-			if (use_s3d_samples<>0)
-				nextenum	dFinalFightMetalCrash,dIntroKick
-			endif
-			if (use_s3_samples<>0)
-				nextenum	dEchoedClapHit_S3,dLowerEchoedClapHit_S3
-			endif
-	endcase
+; Sonic 1 + 2
+dKick			= $81
+dSnare			= $82
+dClap			= $83
+dScratch		= $84
+dTimpani		= $85
+dHiTom			= $86
+dVLowClap		= $87
+dHiTimpani		= $88
+dMidTimpani		= $89
+dLowTimpani		= $8A
+dVLowTimpani	= $8B
+dMidTom			= $8C
+dLowTom			= $8D
+dFloorTom		= $8E
+dHiClap			= $8F
+dMidClap		= $90
+dLowClap		= $91
+
+; Sonic 3 & Knuckles + 3D Blast (WIP)
+dSnareS3		= $82
+dHighTom		= $8C
+dMidTomS3		= $8D
+dLowTomS3		= $8E
+dFloorTomS3		= $86
+dKickS3			= $81
+dMuffledSnare	= $82
+dCrashCymbal	= $80;
+dRideCymbal		= $80;
+dLowMetalHit	= $87
+dMetalHit		= $91
+dHighMetalHit	= $90
+dHigherMetalHit	= $8F
+dMidMetalHit	= $87
+dClapS3			= $83
+dElectricHighTom	= $8C
+dElectricMidTom	= $8D
+dElectricLowTom	= $8E
+dElectricFloorTom	= $86
+dTightSnare		= $82;
+dMidpitchSnare	= $82;
+dLooseSnare		= $82;
+dLooserSnare	= $82;
+dHiTimpaniS3	= $88
+dLowTimpaniS3	= $8A
+dMidTimpaniS3	= $89
+dQuickLooseSnare	= $82
+;dClick			= $81
 ; ---------------------------------------------------------------------------
 ; Channel IDs for SFX
 cPSG1				EQU $80

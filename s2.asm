@@ -49,6 +49,9 @@ relativeLea = 0|(gameRevision<>2)|allOptimizations
 useFullWaterTables = 0
 ;	| If 1, zone offset tables for water levels cover all level slots instead of only slots 8-$F
 ;	| Set to 1 if you've shifted level IDs around or you want water in levels with a level slot below 8
+gotoLevelSelect = 1
+;	| If 1, makes the game go to the level select on boot up
+;
 
 ; >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 ; AS-specific macros and assembler settings
@@ -410,7 +413,11 @@ GameClrRAM:
 	bsr.w	VDPSetupGame
 	bsr.w	JmpTo_SoundDriverLoad
 	bsr.w	JoypadInit
+    if gotoLevelSelect=1
+	move.b	#GameModeID_LevelSelect,(Game_Mode).w ; set Game Mode to Level Select
+    else
 	move.b	#GameModeID_SegaScreen,(Game_Mode).w ; set Game Mode to Sega Screen
+	endif
 ; loc_394:
 MainGameLoop:
 	move.b	(Game_Mode).w,d0 ; load Game Mode
@@ -4835,6 +4842,10 @@ Level_TtlCard:
 	bne.s	Level_TtlCard		; if yes, branch
 	move.b	#VintID_TitleCard,(Vint_routine).w
 	bsr.w	WaitForVint
+    if gotoLevelSelect=1
+	moveq	#0,d0
+	bsr.w	LoadPLC
+    endif
 	jsr	(Hud_Base).l
 +
 	moveq	#PalID_BGND,d0
@@ -22942,10 +22953,12 @@ SndDAC_End
 ; ---------------------------------------------------------------------------
 ; loc_F0000:
 MusicPoint1:	startBank
+MusPtr_MTZ:		rom_ptr_z80	Mus_MTZ
 MusPtr_Continue:	rom_ptr_z80	Mus_Continue
 
 
 Mus_Continue:   BINCLUDE	"sound/music/compressed/9C - Continue.sax"
+Mus_MTZ:		include		"sound/music/85 - MTZ.asm"
 
 	finishBank
 
@@ -23043,7 +23056,7 @@ Snd_Sega_End:
 MusicPoint2:	startBank
 MusPtr_CNZ_2P:		rom_ptr_z80	Mus_CNZ_2P
 MusPtr_EHZ:		rom_ptr_z80	Mus_EHZ
-MusPtr_MTZ:		rom_ptr_z80	Mus_MTZ
+;MusPtr_MTZ:		rom_ptr_z80	Mus_MTZ
 MusPtr_CNZ:		rom_ptr_z80	Mus_CNZ
 MusPtr_MCZ:		rom_ptr_z80	Mus_MCZ
 MusPtr_MCZ_2P:		rom_ptr_z80	Mus_MCZ_2P
@@ -23078,7 +23091,7 @@ Mus_Drowning:	BINCLUDE	"sound/music/compressed/9F - Drowning.sax"
 Mus_Invincible:	BINCLUDE	"sound/music/compressed/97 - Invincible.sax"
 Mus_CNZ_2P:	BINCLUDE	"sound/music/compressed/88 - CNZ 2P.sax"
 Mus_EHZ:	BINCLUDE	"sound/music/compressed/82 - EHZ.sax"
-Mus_MTZ:	BINCLUDE	"sound/music/compressed/85 - MTZ.sax"
+;Mus_MTZ:	BINCLUDE	"sound/music/compressed/85 - MTZ.sax"
 Mus_CNZ:	BINCLUDE	"sound/music/compressed/89 - CNZ.sax"
 Mus_MCZ:	BINCLUDE	"sound/music/compressed/8B - MCZ.sax"
 Mus_MCZ_2P:	BINCLUDE	"sound/music/compressed/83 - MCZ 2P.sax"

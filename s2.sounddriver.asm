@@ -3802,7 +3802,7 @@ zMusIDPtr_2PResult:	music_metadata 1,0,0,MusPtr_2PResult
 zMusIDPtr_EHZ:		music_metadata 1,0,0,MusPtr_EHZ
 zMusIDPtr_MCZ_2P:	music_metadata 1,0,0,MusPtr_MCZ_2P
 zMusIDPtr_OOZ:		music_metadata 1,0,0,MusPtr_OOZ
-zMusIDPtr_MTZ:		music_metadata 1,0,0,MusPtr_MTZ
+zMusIDPtr_MTZ:		music_metadata 0,0,1,MusPtr_MTZ
 zMusIDPtr_HTZ:		music_metadata 1,0,0,MusPtr_HTZ
 zMusIDPtr_ARZ:		music_metadata 1,0,0,MusPtr_ARZ
 zMusIDPtr_CNZ_2P:	music_metadata 1,0,0,MusPtr_CNZ_2P
