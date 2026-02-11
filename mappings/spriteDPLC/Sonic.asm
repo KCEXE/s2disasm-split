@@ -1,1540 +1,442 @@
-.offsets:	mappingsTable
-	mappingsTableEntry.w	.frame0
-	mappingsTableEntry.w	.frame1
-	mappingsTableEntry.w	.frame2
-	mappingsTableEntry.w	.frame3
-	mappingsTableEntry.w	.frame4
-	mappingsTableEntry.w	.frame5
-	mappingsTableEntry.w	.frame6
-	mappingsTableEntry.w	.frame7
-	mappingsTableEntry.w	.frame8
-	mappingsTableEntry.w	.frame9
-	mappingsTableEntry.w	.frame10
-	mappingsTableEntry.w	.frame11
-	mappingsTableEntry.w	.frame12
-	mappingsTableEntry.w	.frame13
-	mappingsTableEntry.w	.frame14
-	mappingsTableEntry.w	.frame15
-	mappingsTableEntry.w	.frame16
-	mappingsTableEntry.w	.frame17
-	mappingsTableEntry.w	.frame18
-	mappingsTableEntry.w	.frame19
-	mappingsTableEntry.w	.frame20
-	mappingsTableEntry.w	.frame21
-	mappingsTableEntry.w	.frame22
-	mappingsTableEntry.w	.frame23
-	mappingsTableEntry.w	.frame24
-	mappingsTableEntry.w	.frame25
-	mappingsTableEntry.w	.frame26
-	mappingsTableEntry.w	.frame27
-	mappingsTableEntry.w	.frame28
-	mappingsTableEntry.w	.frame29
-	mappingsTableEntry.w	.frame30
-	mappingsTableEntry.w	.frame31
-	mappingsTableEntry.w	.frame32
-	mappingsTableEntry.w	.frame33
-	mappingsTableEntry.w	.frame34
-	mappingsTableEntry.w	.frame35
-	mappingsTableEntry.w	.frame36
-	mappingsTableEntry.w	.frame37
-	mappingsTableEntry.w	.frame38
-	mappingsTableEntry.w	.frame39
-	mappingsTableEntry.w	.frame40
-	mappingsTableEntry.w	.frame41
-	mappingsTableEntry.w	.frame42
-	mappingsTableEntry.w	.frame43
-	mappingsTableEntry.w	.frame44
-	mappingsTableEntry.w	.frame45
-	mappingsTableEntry.w	.frame46
-	mappingsTableEntry.w	.frame47
-	mappingsTableEntry.w	.frame48
-	mappingsTableEntry.w	.frame49
-	mappingsTableEntry.w	.frame50
-	mappingsTableEntry.w	.frame51
-	mappingsTableEntry.w	.frame52
-	mappingsTableEntry.w	.frame53
-	mappingsTableEntry.w	.frame54
-	mappingsTableEntry.w	.frame55
-	mappingsTableEntry.w	.frame56
-	mappingsTableEntry.w	.frame57
-	mappingsTableEntry.w	.frame58
-	mappingsTableEntry.w	.frame59
-	mappingsTableEntry.w	.frame60
-	mappingsTableEntry.w	.frame61
-	mappingsTableEntry.w	.frame62
-	mappingsTableEntry.w	.frame63
-	mappingsTableEntry.w	.frame64
-	mappingsTableEntry.w	.frame65
-	mappingsTableEntry.w	.frame66
-	mappingsTableEntry.w	.frame67
-	mappingsTableEntry.w	.frame68
-	mappingsTableEntry.w	.frame69
-	mappingsTableEntry.w	.frame70
-	mappingsTableEntry.w	.frame71
-	mappingsTableEntry.w	.frame72
-	mappingsTableEntry.w	.frame73
-	mappingsTableEntry.w	.frame74
-	mappingsTableEntry.w	.frame75
-	mappingsTableEntry.w	.frame76
-	mappingsTableEntry.w	.frame77
-	mappingsTableEntry.w	.frame78
-	mappingsTableEntry.w	.frame79
-	mappingsTableEntry.w	.frame80
-	mappingsTableEntry.w	.frame81
-	mappingsTableEntry.w	.frame82
-	mappingsTableEntry.w	.frame83
-	mappingsTableEntry.w	.frame84
-	mappingsTableEntry.w	.frame85
-	mappingsTableEntry.w	.frame86
-	mappingsTableEntry.w	.frame87
-	mappingsTableEntry.w	.frame88
-	mappingsTableEntry.w	.frame89
-	mappingsTableEntry.w	.frame90
-	mappingsTableEntry.w	.frame91
-	mappingsTableEntry.w	.frame92
-	mappingsTableEntry.w	.frame93
-	mappingsTableEntry.w	.frame94
-	mappingsTableEntry.w	.frame95
-	mappingsTableEntry.w	.frame96
-	mappingsTableEntry.w	.frame97
-	mappingsTableEntry.w	.frame98
-	mappingsTableEntry.w	.frame99
-	mappingsTableEntry.w	.frame100
-	mappingsTableEntry.w	.frame101
-	mappingsTableEntry.w	.frame102
-	mappingsTableEntry.w	.frame103
-	mappingsTableEntry.w	.frame104
-	mappingsTableEntry.w	.frame105
-	mappingsTableEntry.w	.frame106
-	mappingsTableEntry.w	.frame107
-	mappingsTableEntry.w	.frame108
-	mappingsTableEntry.w	.frame109
-	mappingsTableEntry.w	.frame110
-	mappingsTableEntry.w	.frame111
-	mappingsTableEntry.w	.frame112
-	mappingsTableEntry.w	.frame113
-	mappingsTableEntry.w	.frame114
-	mappingsTableEntry.w	.frame115
-	mappingsTableEntry.w	.frame116
-	mappingsTableEntry.w	.frame117
-	mappingsTableEntry.w	.frame118
-	mappingsTableEntry.w	.frame119
-	mappingsTableEntry.w	.frame120
-	mappingsTableEntry.w	.frame121
-	mappingsTableEntry.w	.frame122
-	mappingsTableEntry.w	.frame123
-	mappingsTableEntry.w	.frame124
-	mappingsTableEntry.w	.frame125
-	mappingsTableEntry.w	.frame126
-	mappingsTableEntry.w	.frame127
-	mappingsTableEntry.w	.frame128
-	mappingsTableEntry.w	.frame129
-	mappingsTableEntry.w	.frame130
-	mappingsTableEntry.w	.frame131
-	mappingsTableEntry.w	.frame132
-	mappingsTableEntry.w	.frame133
-	mappingsTableEntry.w	.frame134
-	mappingsTableEntry.w	.frame135
-	mappingsTableEntry.w	.frame136
-	mappingsTableEntry.w	.frame137
-	mappingsTableEntry.w	.frame138
-	mappingsTableEntry.w	.frame139
-	mappingsTableEntry.w	.frame140
-	mappingsTableEntry.w	.frame141
-	mappingsTableEntry.w	.frame142
-	mappingsTableEntry.w	.frame143
-	mappingsTableEntry.w	.frame144
-	mappingsTableEntry.w	.frame145
-	mappingsTableEntry.w	.frame146
-	mappingsTableEntry.w	.frame147
-	mappingsTableEntry.w	.frame148
-	mappingsTableEntry.w	.frame149
-	mappingsTableEntry.w	.frame150
-	mappingsTableEntry.w	.frame151
-	mappingsTableEntry.w	.frame152
-	mappingsTableEntry.w	.frame153
-	mappingsTableEntry.w	.frame154
-	mappingsTableEntry.w	.frame155
-	mappingsTableEntry.w	.frame156
-	mappingsTableEntry.w	.frame157
-	mappingsTableEntry.w	.frame158
-	mappingsTableEntry.w	.frame159
-	mappingsTableEntry.w	.frame160
-	mappingsTableEntry.w	.frame161
-	mappingsTableEntry.w	.frame162
-	mappingsTableEntry.w	.frame163
-	mappingsTableEntry.w	.frame164
-	mappingsTableEntry.w	.frame165
-	mappingsTableEntry.w	.frame166
-	mappingsTableEntry.w	.frame167
-	mappingsTableEntry.w	.frame168
-	mappingsTableEntry.w	.frame169
-	mappingsTableEntry.w	.frame170
-	mappingsTableEntry.w	.frame171
-	mappingsTableEntry.w	.frame172
-	mappingsTableEntry.w	.frame173
-	mappingsTableEntry.w	.frame174
-	mappingsTableEntry.w	.frame175
-	mappingsTableEntry.w	.frame176
-	mappingsTableEntry.w	.frame177
-	mappingsTableEntry.w	.frame178
-	mappingsTableEntry.w	.frame179
-	mappingsTableEntry.w	.frame180
-	mappingsTableEntry.w	.frame181
-	mappingsTableEntry.w	.frame182
-	mappingsTableEntry.w	.frame183
-	mappingsTableEntry.w	.frame184
-	mappingsTableEntry.w	.frame185
-	mappingsTableEntry.w	.frame186
-	mappingsTableEntry.w	.frame187
-	mappingsTableEntry.w	.frame188
-	mappingsTableEntry.w	.frame189
-	mappingsTableEntry.w	.frame190
-	mappingsTableEntry.w	.frame191
-	mappingsTableEntry.w	.frame192
-	mappingsTableEntry.w	.frame193
-	mappingsTableEntry.w	.frame194
-	mappingsTableEntry.w	.frame195
-	mappingsTableEntry.w	.frame196
-	mappingsTableEntry.w	.frame197
-	mappingsTableEntry.w	.frame198
-	mappingsTableEntry.w	.frame199
-	mappingsTableEntry.w	.frame200
-	mappingsTableEntry.w	.frame201
-	mappingsTableEntry.w	.frame202
-	mappingsTableEntry.w	.frame203
-	mappingsTableEntry.w	.frame204
-	mappingsTableEntry.w	.frame205
-	mappingsTableEntry.w	.frame206
-	mappingsTableEntry.w	.frame207
-	mappingsTableEntry.w	.frame208
-	mappingsTableEntry.w	.frame209
-	mappingsTableEntry.w	.frame210
-	mappingsTableEntry.w	.frame211
-	mappingsTableEntry.w	.frame212
-	mappingsTableEntry.w	.frame213
-
-.frame0:	dplcHeader
-.frame0_End
-
-.frame1:	dplcHeader
-	dplcEntry	4, 0
-	dplcEntry	4, 4
-	dplcEntry	6, 8
-	dplcEntry	6, $E
-.frame1_End
-
-.frame2:	dplcHeader
-	dplcEntry	$C, $14
-	dplcEntry	6, $20
-.frame2_End
-
-.frame3:	dplcHeader
-	dplcEntry	4, $26
-	dplcEntry	4, $2A
-	dplcEntry	4, $2E
-	dplcEntry	6, $32
-.frame3_End
-
-.frame4:	dplcHeader
-	dplcEntry	4, $26
-	dplcEntry	4, $38
-	dplcEntry	4, $2E
-	dplcEntry	6, $32
-.frame4_End
-
-.frame5:	dplcHeader
-	dplcEntry	4, $26
-	dplcEntry	4, $38
-	dplcEntry	4, $2E
-	dplcEntry	2, $32
-	dplcEntry	4, $3C
-.frame5_End
-
-.frame6:	dplcHeader
-	dplcEntry	4, $26
-	dplcEntry	8, $40
-	dplcEntry	6, $32
-.frame6_End
-
-.frame7:	dplcHeader
-	dplcEntry	$C, $48
-	dplcEntry	2, $54
-.frame7_End
-
-.frame8:	dplcHeader
-	dplcEntry	$C, $56
-	dplcEntry	4, $62
-.frame8_End
-
-.frame9:	dplcHeader
-	dplcEntry	$C, $56
-	dplcEntry	4, $66
-.frame9_End
-
-.frame10:	dplcHeader
-	dplcEntry	$C, $6A
-	dplcEntry	8, $76
-.frame10_End
-
-.frame11:	dplcHeader
-	dplcEntry	4, $7E
-	dplcEntry	4, $82
-	dplcEntry	6, $86
-	dplcEntry	6, $E
-.frame11_End
-
-.frame12:	dplcHeader
-	dplcEntry	4, $8C
-	dplcEntry	4, $90
-	dplcEntry	4, $94
-	dplcEntry	6, $E
-.frame12_End
-
-.frame13:	dplcHeader
-	dplcEntry	8, $98
-	dplcEntry	2, $A0
-	dplcEntry	$10, $A2
-.frame13_End
-
-.frame14:	dplcHeader
-	dplcEntry	8, $98
-	dplcEntry	2, $B2
-	dplcEntry	$C, $B4
-	dplcEntry	2, $C0
-.frame14_End
-
-.frame15:	dplcHeader
-	dplcEntry	8, $C2
-	dplcEntry	6, $CA
-	dplcEntry	4, $D0
-.frame15_End
-
-.frame16:	dplcHeader
-	dplcEntry	6, $D4
-	dplcEntry	$10, $DA
-.frame16_End
-
-.frame17:	dplcHeader
-	dplcEntry	6, $D4
-	dplcEntry	$10, $EA
-	dplcEntry	2, $FA
-.frame17_End
-
-.frame18:	dplcHeader
-	dplcEntry	6, $D4
-	dplcEntry	2, $FC
-	dplcEntry	$C, $FE
-	dplcEntry	2, $10A
-.frame18_End
-
-.frame19:	dplcHeader
-	dplcEntry	8, $C2
-	dplcEntry	6, $10C
-	dplcEntry	4, $112
-.frame19_End
-
-.frame20:	dplcHeader
-	dplcEntry	8, $98
-	dplcEntry	$C, $116
-.frame20_End
-
-.frame21:	dplcHeader
-	dplcEntry	6, $122
-	dplcEntry	6, $128
-	dplcEntry	4, $12E
-	dplcEntry	2, $132
-.frame21_End
-
-.frame22:	dplcHeader
-	dplcEntry	6, $122
-	dplcEntry	2, $134
-	dplcEntry	8, $136
-	dplcEntry	4, $13E
-	dplcEntry	2, $142
-.frame22_End
-
-.frame23:	dplcHeader
-	dplcEntry	8, $144
-	dplcEntry	4, $14C
-	dplcEntry	2, $150
-	dplcEntry	4, $152
-.frame23_End
-
-.frame24:	dplcHeader
-	dplcEntry	6, $156
-	dplcEntry	2, $15C
-	dplcEntry	4, $15E
-	dplcEntry	$C, $162
-.frame24_End
-
-.frame25:	dplcHeader
-	dplcEntry	6, $156
-	dplcEntry	2, $16E
-	dplcEntry	8, $170
-	dplcEntry	2, $178
-	dplcEntry	4, $17A
-.frame25_End
-
-.frame26:	dplcHeader
-	dplcEntry	6, $156
-	dplcEntry	2, $17E
-	dplcEntry	8, $180
-	dplcEntry	4, $188
-	dplcEntry	2, $18C
-.frame26_End
-
-.frame27:	dplcHeader
-	dplcEntry	8, $144
-	dplcEntry	4, $18E
-	dplcEntry	2, $192
-	dplcEntry	4, $194
-.frame27_End
-
-.frame28:	dplcHeader
-	dplcEntry	6, $122
-	dplcEntry	6, $198
-	dplcEntry	2, $19E
-	dplcEntry	2, $1A0
-	dplcEntry	4, $1A2
-.frame28_End
-
-.frame29:	dplcHeader
-	dplcEntry	8, $1A6
-	dplcEntry	$C, $1AE
-	dplcEntry	4, $1BA
-.frame29_End
-
-.frame30:	dplcHeader
-	dplcEntry	8, $1A6
-	dplcEntry	$C, $1BE
-	dplcEntry	4, $1CA
-.frame30_End
-
-.frame31:	dplcHeader
-	dplcEntry	8, $1CE
-	dplcEntry	4, $1D6
-	dplcEntry	4, $1DA
-.frame31_End
-
-.frame32:	dplcHeader
-	dplcEntry	8, $1DE
-	dplcEntry	$C, $1E6
-.frame32_End
-
-.frame33:	dplcHeader
-	dplcEntry	8, $1DE
-	dplcEntry	4, $1F2
-	dplcEntry	$C, $1F6
-.frame33_End
-
-.frame34:	dplcHeader
-	dplcEntry	8, $1DE
-	dplcEntry	$C, $202
-	dplcEntry	4, $20E
-.frame34_End
-
-.frame35:	dplcHeader
-	dplcEntry	8, $1CE
-	dplcEntry	4, $212
-	dplcEntry	4, $216
-.frame35_End
-
-.frame36:	dplcHeader
-	dplcEntry	8, $1A6
-	dplcEntry	$C, $21A
-.frame36_End
-
-.frame37:	dplcHeader
-	dplcEntry	4, $226
-	dplcEntry	8, $22A
-	dplcEntry	8, $232
-	dplcEntry	2, $23A
-.frame37_End
-
-.frame38:	dplcHeader
-	dplcEntry	4, $23C
-	dplcEntry	6, $240
-	dplcEntry	8, $22A
-	dplcEntry	8, $246
-	dplcEntry	2, $23A
-.frame38_End
-
-.frame39:	dplcHeader
-	dplcEntry	8, $24E
-	dplcEntry	8, $256
-	dplcEntry	4, $25E
-	dplcEntry	2, $262
-.frame39_End
-
-.frame40:	dplcHeader
-	dplcEntry	8, $264
-	dplcEntry	8, $26C
-	dplcEntry	6, $274
-	dplcEntry	2, $27A
-.frame40_End
-
-.frame41:	dplcHeader
-	dplcEntry	6, $27C
-	dplcEntry	8, $26C
-	dplcEntry	8, $282
-	dplcEntry	2, $27A
-.frame41_End
-
-.frame42:	dplcHeader
-	dplcEntry	4, $28A
-	dplcEntry	6, $28E
-	dplcEntry	8, $26C
-	dplcEntry	8, $294
-	dplcEntry	2, $27A
-.frame42_End
-
-.frame43:	dplcHeader
-	dplcEntry	8, $29C
-	dplcEntry	8, $256
-	dplcEntry	4, $2A4
-	dplcEntry	2, $262
-.frame43_End
-
-.frame44:	dplcHeader
-	dplcEntry	8, $2A8
-	dplcEntry	8, $22A
-	dplcEntry	6, $2B0
-	dplcEntry	2, $23A
-.frame44_End
-
-.frame45:	dplcHeader
-	dplcEntry	6, $2B6
-	dplcEntry	$10, $2BC
-.frame45_End
-
-.frame46:	dplcHeader
-	dplcEntry	6, $2CC
-	dplcEntry	$10, $2D2
-.frame46_End
-
-.frame47:	dplcHeader
-	dplcEntry	6, $2B6
-	dplcEntry	$10, $2E2
-.frame47_End
-
-.frame48:	dplcHeader
-	dplcEntry	6, $2CC
-	dplcEntry	$10, $2F2
-.frame48_End
-
-.frame49:	dplcHeader
-	dplcEntry	6, $302
-	dplcEntry	2, $308
-	dplcEntry	8, $30A
-	dplcEntry	6, $312
-.frame49_End
-
-.frame50:	dplcHeader
-	dplcEntry	8, $318
-	dplcEntry	8, $320
-	dplcEntry	6, $328
-.frame50_End
-
-.frame51:	dplcHeader
-	dplcEntry	6, $302
-	dplcEntry	2, $32E
-	dplcEntry	8, $330
-	dplcEntry	6, $338
-.frame51_End
-
-.frame52:	dplcHeader
-	dplcEntry	8, $318
-	dplcEntry	8, $33E
-	dplcEntry	6, $346
-.frame52_End
-
-.frame53:	dplcHeader
-	dplcEntry	8, $34C
-	dplcEntry	$C, $354
-.frame53_End
-
-.frame54:	dplcHeader
-	dplcEntry	8, $360
-	dplcEntry	$C, $368
-.frame54_End
-
-.frame55:	dplcHeader
-	dplcEntry	8, $34C
-	dplcEntry	$C, $374
-.frame55_End
-
-.frame56:	dplcHeader
-	dplcEntry	8, $360
-	dplcEntry	$C, $380
-.frame56_End
-
-.frame57:	dplcHeader
-	dplcEntry	2, $38C
-	dplcEntry	8, $38E
-	dplcEntry	$C, $396
-.frame57_End
-
-.frame58:	dplcHeader
-	dplcEntry	8, $3A2
-	dplcEntry	$C, $3AA
-.frame58_End
-
-.frame59:	dplcHeader
-	dplcEntry	2, $3B6
-	dplcEntry	8, $38E
-	dplcEntry	$C, $3C0
-.frame59_End
-
-.frame60:	dplcHeader
-	dplcEntry	8, $3A2
-	dplcEntry	$C, $3CC
-.frame60_End
-
-.frame61:	dplcHeader
-	dplcEntry	$10, $400
-.frame61_End
-
-.frame62:	dplcHeader
-	dplcEntry	$10, $410
-.frame62_End
-
-.frame63:	dplcHeader
-	dplcEntry	$10, $420
-.frame63_End
-
-.frame64:	dplcHeader
-	dplcEntry	$10, $430
-.frame64_End
-
-.frame65:	dplcHeader
-	dplcEntry	$10, $440
-.frame65_End
-
-.frame66:	dplcHeader
-	dplcEntry	$10, $450
-.frame66_End
-
-.frame67:	dplcHeader
-	dplcEntry	$10, $460
-.frame67_End
-
-.frame68:	dplcHeader
-	dplcEntry	$10, $470
-.frame68_End
-
-.frame69:	dplcHeader
-	dplcEntry	$10, $480
-.frame69_End
-
-.frame70:	dplcHeader
-	dplcEntry	$10, $490
-.frame70_End
-
-.frame71:	dplcHeader
-	dplcEntry	$10, $4A0
-.frame71_End
-
-.frame72:	dplcHeader
-	dplcEntry	6, $3D8
-	dplcEntry	6, $3DE
-	dplcEntry	8, $3E4
-.frame72_End
-
-.frame73:	dplcHeader
-	dplcEntry	6, $3D8
-	dplcEntry	6, $3EC
-	dplcEntry	6, $3F2
-.frame73_End
-
-.frame74:	dplcHeader
-	dplcEntry	6, $3D8
-	dplcEntry	6, $3DE
-	dplcEntry	8, $3B8
-.frame74_End
-
-.frame75:	dplcHeader
-	dplcEntry	6, $3D8
-	dplcEntry	6, $3EC
-	dplcEntry	6, $4B0
-.frame75_End
-
-.frame76:	dplcHeader
-	dplcEntry	$C, $4B6
-.frame76_End
-
-.frame77:	dplcHeader
-	dplcEntry	$10, $4C2
-.frame77_End
-
-.frame78:	dplcHeader
-	dplcEntry	2, $4D2
-	dplcEntry	$10, $4D4
-.frame78_End
-
-.frame79:	dplcHeader
-	dplcEntry	4, $4E4
-	dplcEntry	$10, $4E8
-.frame79_End
-
-.frame80:	dplcHeader
-	dplcEntry	$10, $4F8
-	dplcEntry	2, $508
-	dplcEntry	4, $50A
-.frame80_End
-
-.frame81:	dplcHeader
-	dplcEntry	$10, $50E
-	dplcEntry	2, $51E
-	dplcEntry	4, $520
-.frame81_End
-
-.frame82:	dplcHeader
-	dplcEntry	$C, $524
-	dplcEntry	6, $530
-.frame82_End
-
-.frame83:	dplcHeader
-	dplcEntry	$C, $536
-	dplcEntry	6, $542
-.frame83_End
-
-.frame86:
-.frame84:	dplcHeader
-	dplcEntry	4, $548
-	dplcEntry	$C, $54C
-	dplcEntry	2, $558
-.frame84_End
-
-.frame85:	dplcHeader
-	dplcEntry	2, $55A
-	dplcEntry	8, $55C
-.frame85_End
-
-.frame88:
-.frame87:	dplcHeader
-	dplcEntry	2, $564
-	dplcEntry	$C, $566
-	dplcEntry	2, $572
-.frame87_End
-
-.frame89:	dplcHeader
-	dplcEntry	4, $574
-	dplcEntry	$C, $578
-	dplcEntry	2, $584
-.frame89_End
-
-.frame90:	dplcHeader
-	dplcEntry	6, $586
-	dplcEntry	$10, $58C
-	dplcEntry	2, $59C
-.frame90_End
-
-.frame91:	dplcHeader
-	dplcEntry	$C, $59E
-	dplcEntry	4, $5AA
-.frame91_End
-
-.frame92:	dplcHeader
-	dplcEntry	2, $5AE
-	dplcEntry	$C, $5B0
-	dplcEntry	2, $5BC
-	dplcEntry	8, $5BE
-.frame92_End
-
-.frame93:	dplcHeader
-	dplcEntry	2, $5AE
-	dplcEntry	$C, $5C6
-	dplcEntry	2, $5BC
-	dplcEntry	8, $5BE
-.frame93_End
-
-.frame94:	dplcHeader
-	dplcEntry	8, $5D2
-	dplcEntry	2, $5DA
-	dplcEntry	$C, $5DC
-.frame94_End
-
-.frame95:	dplcHeader
-	dplcEntry	6, $5E8
-	dplcEntry	$C, $5EE
-	dplcEntry	2, $5FA
-.frame95_End
-
-.frame96:	dplcHeader
-	dplcEntry	$C, $5FC
-	dplcEntry	2, $608
-	dplcEntry	4, $60A
-.frame96_End
-
-.frame97:	dplcHeader
-	dplcEntry	$C, $60E
-	dplcEntry	2, $61A
-.frame97_End
-
-.frame98:	dplcHeader
-	dplcEntry	$10, $61C
-.frame98_End
-
-.frame99:	dplcHeader
-	dplcEntry	$C, $62C
-	dplcEntry	2, $638
-.frame99_End
-
-.frame100:	dplcHeader
-	dplcEntry	2, $63A
-	dplcEntry	$C, $63C
-	dplcEntry	2, $648
-.frame100_End
-
-.frame101:	dplcHeader
-	dplcEntry	6, $64A
-	dplcEntry	$C, $650
-	dplcEntry	4, $65C
-.frame101_End
-
-.frame102:	dplcHeader
-	dplcEntry	4, $660
-	dplcEntry	$C, $664
-	dplcEntry	2, $670
-.frame102_End
-
-.frame103:	dplcHeader
-	dplcEntry	$C, $672
-	dplcEntry	2, $67E
-.frame103_End
-
-.frame104:	dplcHeader
-	dplcEntry	2, $680
-	dplcEntry	$C, $682
-.frame104_End
-
-.frame105:	dplcHeader
-	dplcEntry	4, $68E
-	dplcEntry	$C, $692
-	dplcEntry	2, $69E
-.frame105_End
-
-.frame106:	dplcHeader
-	dplcEntry	4, $6A0
-	dplcEntry	$10, $6A4
-.frame106_End
-
-.frame107:	dplcHeader
-	dplcEntry	8, $6B4
-	dplcEntry	4, $6BC
-	dplcEntry	6, $6C0
-.frame107_End
-
-.frame108:	dplcHeader
-	dplcEntry	8, $6C6
-	dplcEntry	4, $6BC
-	dplcEntry	6, $6CE
-.frame108_End
-
-.frame109:	dplcHeader
-	dplcEntry	$C, $7D6
-.frame109_End
-
-.frame110:	dplcHeader
-	dplcEntry	$C, $7E2
-	dplcEntry	2, $7EE
-	dplcEntry	6, $7F0
-.frame110_End
-
-.frame111:	dplcHeader
-	dplcEntry	9, $7F6
-	dplcEntry	1, $A18
-	dplcEntry	9, $800
-.frame111_End
-
-.frame112:	dplcHeader
-	dplcEntry	3, $809
-	dplcEntry	2, $80C
-	dplcEntry	4, $80E
-	dplcEntry	9, $812
-	dplcEntry	1, $81B
-.frame112_End
-
-.frame113:	dplcHeader
-	dplcEntry	3, $81C
-	dplcEntry	2, $81F
-	dplcEntry	4, $80E
-	dplcEntry	9, $812
-	dplcEntry	1, $81B
-.frame113_End
-
-.frame114:	dplcHeader
-	dplcEntry	9, $821
-	dplcEntry	9, $82A
-.frame114_End
-
-.frame115:	dplcHeader
-	dplcEntry	9, $833
-	dplcEntry	9, $82A
-.frame115_End
-
-.frame116:	dplcHeader
-	dplcEntry	9, $83C
-	dplcEntry	9, $82A
-.frame116_End
-
-.frame117:	dplcHeader
-	dplcEntry	$C, $6D4
-	dplcEntry	2, $A0
-	dplcEntry	$10, $A2
-.frame117_End
-
-.frame118:	dplcHeader
-	dplcEntry	$C, $6D4
-	dplcEntry	2, $B2
-	dplcEntry	$C, $B4
-	dplcEntry	2, $C0
-.frame118_End
-
-.frame119:	dplcHeader
-	dplcEntry	$C, $6E0
-	dplcEntry	6, $CA
-	dplcEntry	4, $D0
-.frame119_End
-
-.frame120:	dplcHeader
-	dplcEntry	9, $6EC
-	dplcEntry	$10, $DA
-.frame120_End
-
-.frame121:	dplcHeader
-	dplcEntry	9, $6EC
-	dplcEntry	$10, $EA
-	dplcEntry	2, $FA
-.frame121_End
-
-.frame122:	dplcHeader
-	dplcEntry	9, $6EC
-	dplcEntry	2, $FC
-	dplcEntry	$C, $FE
-	dplcEntry	2, $10A
-.frame122_End
-
-.frame123:	dplcHeader
-	dplcEntry	$C, $6E0
-	dplcEntry	6, $10C
-	dplcEntry	4, $112
-.frame123_End
-
-.frame124:	dplcHeader
-	dplcEntry	$C, $6D4
-	dplcEntry	$C, $116
-.frame124_End
-
-.frame125:	dplcHeader
-	dplcEntry	8, $6F5
-	dplcEntry	4, $12E
-	dplcEntry	6, $128
-	dplcEntry	2, $132
-.frame125_End
-
-.frame126:	dplcHeader
-	dplcEntry	8, $6F5
-	dplcEntry	2, $134
-	dplcEntry	8, $136
-	dplcEntry	4, $13E
-	dplcEntry	2, $142
-.frame126_End
-
-.frame127:	dplcHeader
-	dplcEntry	9, $6FD
-	dplcEntry	4, $14C
-	dplcEntry	1, $706
-	dplcEntry	2, $150
-	dplcEntry	4, $152
-.frame127_End
-
-.frame128:	dplcHeader
-	dplcEntry	1, $707
-	dplcEntry	8, $708
-	dplcEntry	2, $15C
-	dplcEntry	4, $15E
-	dplcEntry	$C, $162
-.frame128_End
-
-.frame129:	dplcHeader
-	dplcEntry	1, $707
-	dplcEntry	8, $708
-	dplcEntry	2, $16E
-	dplcEntry	2, $178
-	dplcEntry	8, $170
-	dplcEntry	4, $17A
-.frame129_End
-
-.frame130:	dplcHeader
-	dplcEntry	1, $707
-	dplcEntry	8, $708
-	dplcEntry	2, $17E
-	dplcEntry	8, $180
-	dplcEntry	4, $188
-	dplcEntry	2, $18C
-.frame130_End
-
-.frame131:	dplcHeader
-	dplcEntry	9, $6FD
-	dplcEntry	4, $18E
-	dplcEntry	1, $706
-	dplcEntry	2, $192
-	dplcEntry	4, $194
-.frame131_End
-
-.frame132:	dplcHeader
-	dplcEntry	8, $6F5
-	dplcEntry	2, $19E
-	dplcEntry	6, $198
-	dplcEntry	1, $1A0
-	dplcEntry	4, $1A2
-.frame132_End
-
-.frame133:	dplcHeader
-	dplcEntry	$C, $710
-	dplcEntry	$C, $1AE
-	dplcEntry	4, $1BA
-.frame133_End
-
-.frame134:	dplcHeader
-	dplcEntry	$C, $710
-	dplcEntry	$C, $1BE
-	dplcEntry	4, $1CA
-.frame134_End
-
-.frame135:	dplcHeader
-	dplcEntry	$C, $71C
-	dplcEntry	4, $1D6
-	dplcEntry	4, $1DA
-.frame135_End
-
-.frame136:	dplcHeader
-	dplcEntry	9, $728
-	dplcEntry	$C, $1E6
-.frame136_End
-
-.frame137:	dplcHeader
-	dplcEntry	9, $728
-	dplcEntry	4, $1F2
-	dplcEntry	$C, $1F6
-.frame137_End
-
-.frame138:	dplcHeader
-	dplcEntry	9, $728
-	dplcEntry	$C, $202
-	dplcEntry	4, $20E
-.frame138_End
-
-.frame139:	dplcHeader
-	dplcEntry	$C, $71C
-	dplcEntry	4, $212
-	dplcEntry	4, $216
-.frame139_End
-
-.frame140:	dplcHeader
-	dplcEntry	$C, $710
-	dplcEntry	$C, $21A
-.frame140_End
-
-.frame141:	dplcHeader
-	dplcEntry	4, $226
-	dplcEntry	8, $731
-	dplcEntry	8, $232
-	dplcEntry	1, $739
-.frame141_End
-
-.frame142:	dplcHeader
-	dplcEntry	4, $23C
-	dplcEntry	6, $240
-	dplcEntry	8, $731
-	dplcEntry	8, $246
-	dplcEntry	1, $739
-.frame142_End
-
-.frame143:	dplcHeader
-	dplcEntry	8, $24E
-	dplcEntry	8, $73A
-	dplcEntry	4, $25E
-	dplcEntry	2, $742
-.frame143_End
-
-.frame144:	dplcHeader
-	dplcEntry	8, $264
-	dplcEntry	$C, $744
-	dplcEntry	6, $274
-	dplcEntry	1, $750
-.frame144_End
-
-.frame145:	dplcHeader
-	dplcEntry	6, $27C
-	dplcEntry	$C, $744
-	dplcEntry	8, $282
-	dplcEntry	1, $750
-.frame145_End
-
-.frame146:	dplcHeader
-	dplcEntry	4, $28A
-	dplcEntry	6, $28E
-	dplcEntry	$C, $744
-	dplcEntry	8, $294
-	dplcEntry	1, $750
-.frame146_End
-
-.frame147:	dplcHeader
-	dplcEntry	8, $29C
-	dplcEntry	8, $73A
-	dplcEntry	4, $2A4
-	dplcEntry	2, $742
-.frame147_End
-
-.frame148:	dplcHeader
-	dplcEntry	8, $2A8
-	dplcEntry	8, $731
-	dplcEntry	6, $2B0
-	dplcEntry	1, $739
-.frame148_End
-
-.frame149:	dplcHeader
-	dplcEntry	$C, $751
-	dplcEntry	2, $A0
-	dplcEntry	$10, $A2
-.frame149_End
-
-.frame150:	dplcHeader
-	dplcEntry	$C, $751
-	dplcEntry	2, $B2
-	dplcEntry	$C, $B4
-	dplcEntry	2, $C0
-.frame150_End
-
-.frame151:	dplcHeader
-	dplcEntry	$C, $75D
-	dplcEntry	6, $CA
-	dplcEntry	4, $D0
-.frame151_End
-
-.frame152:	dplcHeader
-	dplcEntry	9, $769
-	dplcEntry	$10, $DA
-.frame152_End
-
-.frame153:	dplcHeader
-	dplcEntry	9, $769
-	dplcEntry	$10, $EA
-	dplcEntry	2, $FA
-.frame153_End
-
-.frame154:	dplcHeader
-	dplcEntry	9, $769
-	dplcEntry	2, $FC
-	dplcEntry	$C, $FE
-	dplcEntry	2, $10A
-.frame154_End
-
-.frame155:	dplcHeader
-	dplcEntry	$C, $75D
-	dplcEntry	6, $10C
-	dplcEntry	4, $112
-.frame155_End
-
-.frame156:	dplcHeader
-	dplcEntry	$C, $751
-	dplcEntry	$C, $116
-.frame156_End
-
-.frame157:	dplcHeader
-	dplcEntry	2, $772
-	dplcEntry	8, $774
-	dplcEntry	6, $128
-	dplcEntry	4, $12E
-	dplcEntry	2, $132
-.frame157_End
-
-.frame158:	dplcHeader
-	dplcEntry	2, $772
-	dplcEntry	8, $774
-	dplcEntry	2, $134
-	dplcEntry	8, $136
-	dplcEntry	4, $13E
-	dplcEntry	2, $142
-.frame158_End
-
-.frame159:	dplcHeader
-	dplcEntry	6, $77C
-	dplcEntry	4, $782
-	dplcEntry	4, $14C
-	dplcEntry	2, $150
-	dplcEntry	4, $152
-.frame159_End
-
-.frame160:	dplcHeader
-	dplcEntry	2, $786
-	dplcEntry	8, $788
-	dplcEntry	2, $15C
-	dplcEntry	4, $15E
-	dplcEntry	$C, $162
-.frame160_End
-
-.frame161:	dplcHeader
-	dplcEntry	2, $786
-	dplcEntry	8, $788
-	dplcEntry	2, $16E
-	dplcEntry	2, $178
-	dplcEntry	8, $170
-	dplcEntry	4, $17A
-.frame161_End
-
-.frame162:	dplcHeader
-	dplcEntry	2, $786
-	dplcEntry	8, $788
-	dplcEntry	2, $17E
-	dplcEntry	8, $180
-	dplcEntry	4, $188
-	dplcEntry	2, $18C
-.frame162_End
-
-.frame163:	dplcHeader
-	dplcEntry	6, $77C
-	dplcEntry	4, $782
-	dplcEntry	4, $18E
-	dplcEntry	2, $192
-	dplcEntry	4, $194
-.frame163_End
-
-.frame164:	dplcHeader
-	dplcEntry	2, $772
-	dplcEntry	8, $774
-	dplcEntry	6, $198
-	dplcEntry	2, $19E
-	dplcEntry	4, $1A2
-	dplcEntry	2, $1A0
-.frame164_End
-
-.frame165:	dplcHeader
-	dplcEntry	$C, $790
-	dplcEntry	$C, $1AE
-	dplcEntry	4, $1BA
-.frame165_End
-
-.frame166:	dplcHeader
-	dplcEntry	$C, $790
-	dplcEntry	$C, $1BE
-	dplcEntry	4, $1CA
-.frame166_End
-
-.frame167:	dplcHeader
-	dplcEntry	$C, $79C
-	dplcEntry	4, $1D6
-	dplcEntry	4, $1DA
-.frame167_End
-
-.frame168:	dplcHeader
-	dplcEntry	9, $7A8
-	dplcEntry	$C, $1E6
-.frame168_End
-
-.frame169:	dplcHeader
-	dplcEntry	9, $7A8
-	dplcEntry	4, $1F2
-	dplcEntry	$C, $1F6
-.frame169_End
-
-.frame170:	dplcHeader
-	dplcEntry	9, $7A8
-	dplcEntry	$C, $202
-	dplcEntry	4, $20E
-.frame170_End
-
-.frame171:	dplcHeader
-	dplcEntry	$C, $79C
-	dplcEntry	4, $212
-	dplcEntry	4, $216
-.frame171_End
-
-.frame172:	dplcHeader
-	dplcEntry	$C, $790
-	dplcEntry	$C, $21A
-.frame172_End
-
-.frame173:	dplcHeader
-	dplcEntry	4, $226
-	dplcEntry	$C, $7B1
-	dplcEntry	8, $232
-	dplcEntry	1, $7BD
-.frame173_End
-
-.frame174:	dplcHeader
-	dplcEntry	4, $23C
-	dplcEntry	6, $240
-	dplcEntry	$C, $7B1
-	dplcEntry	8, $246
-	dplcEntry	1, $7BD
-.frame174_End
-
-.frame175:	dplcHeader
-	dplcEntry	8, $24E
-	dplcEntry	2, $7BE
-	dplcEntry	8, $7C0
-	dplcEntry	4, $25E
-	dplcEntry	1, $7C8
-.frame175_End
-
-.frame176:	dplcHeader
-	dplcEntry	8, $264
-	dplcEntry	$C, $7C9
-	dplcEntry	6, $274
-	dplcEntry	1, $7D5
-.frame176_End
-
-.frame177:	dplcHeader
-	dplcEntry	6, $27C
-	dplcEntry	$C, $7C9
-	dplcEntry	8, $282
-	dplcEntry	1, $7D5
-.frame177_End
-
-.frame178:	dplcHeader
-	dplcEntry	4, $28A
-	dplcEntry	6, $28E
-	dplcEntry	$C, $7C9
-	dplcEntry	8, $294
-	dplcEntry	1, $7D5
-.frame178_End
-
-.frame179:	dplcHeader
-	dplcEntry	8, $29C
-	dplcEntry	2, $7BE
-	dplcEntry	8, $7C0
-	dplcEntry	4, $2A4
-	dplcEntry	1, $7C8
-.frame179_End
-
-.frame180:	dplcHeader
-	dplcEntry	8, $2A8
-	dplcEntry	2, $7B2
-	dplcEntry	8, $7B5
-	dplcEntry	6, $2B0
-	dplcEntry	1, $7BD
-.frame180_End
-
-.frame181:	dplcHeader
-	dplcEntry	3, $845
-	dplcEntry	1, $848
-	dplcEntry	4, $849
-	dplcEntry	6, $84D
-.frame181_End
-
-.frame182:	dplcHeader
-	dplcEntry	2, $853
-	dplcEntry	$C, $855
-	dplcEntry	3, $861
-	dplcEntry	2, $864
-.frame182_End
-
-.frame183:	dplcHeader
-	dplcEntry	3, $866
-	dplcEntry	4, $869
-	dplcEntry	3, $86D
-	dplcEntry	4, $870
-.frame183_End
-
-.frame184:	dplcHeader
-	dplcEntry	3, $874
-	dplcEntry	8, $877
-	dplcEntry	4, $87F
-	dplcEntry	2, $883
-	dplcEntry	1, $885
-.frame184_End
-
-.frame185:	dplcHeader
-	dplcEntry	6, $886
-	dplcEntry	1, $88C
-	dplcEntry	4, $849
-	dplcEntry	6, $88D
-.frame185_End
-
-.frame186:	dplcHeader
-	dplcEntry	2, $893
-	dplcEntry	$C, $895
-	dplcEntry	3, $861
-	dplcEntry	1, $8A1
-.frame186_End
-
-.frame187:	dplcHeader
-	dplcEntry	6, $8A2
-	dplcEntry	4, $869
-	dplcEntry	1, $8A8
-	dplcEntry	6, $8A9
-.frame187_End
-
-.frame188:	dplcHeader
-	dplcEntry	3, $874
-	dplcEntry	8, $8AF
-	dplcEntry	4, $8B7
-	dplcEntry	2, $8BB
-	dplcEntry	1, $885
-.frame188_End
-
-.frame189:	dplcHeader
-	dplcEntry	6, $8BD
-	dplcEntry	4, $8C3
-	dplcEntry	4, $8C7
-	dplcEntry	8, $8CB
-.frame189_End
-
-.frame190:	dplcHeader
-	dplcEntry	6, $8D3
-	dplcEntry	4, $8D9
-	dplcEntry	4, $8C7
-	dplcEntry	8, $8DD
-.frame190_End
-
-.frame191:	dplcHeader
-	dplcEntry	6, $8BD
-	dplcEntry	4, $8C3
-	dplcEntry	4, $8C7
-	dplcEntry	8, $8E5
-.frame191_End
-
-.frame192:	dplcHeader
-	dplcEntry	6, $8D3
-	dplcEntry	4, $8D9
-	dplcEntry	4, $8C7
-	dplcEntry	8, $8ED
-.frame192_End
-
-.frame193:	dplcHeader
-	dplcEntry	3, $8F5
-	dplcEntry	$C, $8F8
-.frame193_End
-
-.frame194:	dplcHeader
-	dplcEntry	9, $904
-	dplcEntry	3, $90D
-	dplcEntry	4, $910
-.frame194_End
-
-.frame195:	dplcHeader
-	dplcEntry	9, $833
-	dplcEntry	3, $90D
-	dplcEntry	4, $910
-.frame195_End
-
-.frame196:	dplcHeader
-	dplcEntry	9, $83C
-	dplcEntry	3, $90D
-	dplcEntry	4, $910
-.frame196_End
-
-.frame197:	dplcHeader
-	dplcEntry	9, $904
-	dplcEntry	3, $90D
-	dplcEntry	4, $914
-.frame197_End
-
-.frame198:	dplcHeader
-	dplcEntry	9, $833
-	dplcEntry	3, $90D
-	dplcEntry	4, $914
-.frame198_End
-
-.frame199:	dplcHeader
-	dplcEntry	9, $83C
-	dplcEntry	3, $90D
-	dplcEntry	4, $914
-.frame199_End
-
-.frame200:	dplcHeader
-	dplcEntry	$C, $918
-	dplcEntry	4, $924
-	dplcEntry	4, $928
-.frame200_End
-
-.frame201:	dplcHeader
-	dplcEntry	$C, $92C
-	dplcEntry	4, $938
-	dplcEntry	4, $928
-.frame201_End
-
-.frame202:	dplcHeader
-	dplcEntry	$C, $93C
-	dplcEntry	4, $948
-	dplcEntry	4, $928
-.frame202_End
-
-.frame203:	dplcHeader
-	dplcEntry	$C, $94C
-	dplcEntry	2, $924
-	dplcEntry	2, $958
-	dplcEntry	2, $93A
-	dplcEntry	4, $928
-.frame203_End
-
-.frame204:	dplcHeader
-	dplcEntry	8, $95A
-	dplcEntry	6, $962
-	dplcEntry	4, $968
-	dplcEntry	6, $96C
-.frame204_End
-
-.frame205:	dplcHeader
-	dplcEntry	8, $972
-	dplcEntry	6, $962
-	dplcEntry	4, $97A
-	dplcEntry	6, $97E
-.frame205_End
-
-.frame206:	dplcHeader
-	dplcEntry	8, $984
-	dplcEntry	6, $962
-	dplcEntry	6, $98C
-	dplcEntry	6, $992
-.frame206_End
-
-.frame207:	dplcHeader
-	dplcEntry	4, $998
-	dplcEntry	$C, $99C
-	dplcEntry	4, $9A8
-.frame207_End
-
-.frame208:	dplcHeader
-	dplcEntry	4, $9AC
-	dplcEntry	$C, $9B0
-	dplcEntry	4, $9BC
-.frame208_End
-
-.frame209:	dplcHeader
-	dplcEntry	4, $9C0
-	dplcEntry	$C, $9C4
-	dplcEntry	4, $9BC
-.frame209_End
-
-.frame210:	dplcHeader
-	dplcEntry	8, $9D0
-	dplcEntry	8, $9D8
-	dplcEntry	2, $9E0
-	dplcEntry	4, $9E2
-.frame210_End
-
-.frame211:	dplcHeader
-	dplcEntry	8, $9E6
-	dplcEntry	8, $9EE
-	dplcEntry	2, $9E0
-	dplcEntry	4, $9E2
-.frame211_End
-
-.frame212:	dplcHeader
-	dplcEntry	8, $9F6
-	dplcEntry	8, $9FE
-	dplcEntry	2, $9E0
-	dplcEntry	4, $9E2
-.frame212_End
-
-.frame213:	dplcHeader
-	dplcEntry	6, $A06
-	dplcEntry	$C, $A0C
-.frame213_End
-
-	even
+; --------------------------------------------------------------------------------
+; Dynamic Pattern Loading Cues - output from SonMapEd - Sonic 2 format; --------------------------------------------------------------------------------
+
+SME_EVWmj:	
+		dc.w SME_EVWmj_246-SME_EVWmj, SME_EVWmj_248-SME_EVWmj	
+		dc.w SME_EVWmj_252-SME_EVWmj, SME_EVWmj_254-SME_EVWmj	
+		dc.w SME_EVWmj_25C-SME_EVWmj, SME_EVWmj_264-SME_EVWmj	
+		dc.w SME_EVWmj_26C-SME_EVWmj, SME_EVWmj_26E-SME_EVWmj	
+		dc.w SME_EVWmj_270-SME_EVWmj, SME_EVWmj_272-SME_EVWmj	
+		dc.w SME_EVWmj_274-SME_EVWmj, SME_EVWmj_276-SME_EVWmj	
+		dc.w SME_EVWmj_278-SME_EVWmj, SME_EVWmj_280-SME_EVWmj	
+		dc.w SME_EVWmj_28C-SME_EVWmj, SME_EVWmj_294-SME_EVWmj	
+		dc.w SME_EVWmj_29C-SME_EVWmj, SME_EVWmj_2A2-SME_EVWmj	
+		dc.w SME_EVWmj_2AE-SME_EVWmj, SME_EVWmj_2B6-SME_EVWmj	
+		dc.w SME_EVWmj_2BE-SME_EVWmj, SME_EVWmj_2C8-SME_EVWmj	
+		dc.w SME_EVWmj_2D4-SME_EVWmj, SME_EVWmj_2E2-SME_EVWmj	
+		dc.w SME_EVWmj_2EC-SME_EVWmj, SME_EVWmj_2FA-SME_EVWmj	
+		dc.w SME_EVWmj_308-SME_EVWmj, SME_EVWmj_316-SME_EVWmj	
+		dc.w SME_EVWmj_320-SME_EVWmj, SME_EVWmj_32C-SME_EVWmj	
+		dc.w SME_EVWmj_338-SME_EVWmj, SME_EVWmj_340-SME_EVWmj	
+		dc.w SME_EVWmj_348-SME_EVWmj, SME_EVWmj_34E-SME_EVWmj	
+		dc.w SME_EVWmj_35A-SME_EVWmj, SME_EVWmj_362-SME_EVWmj	
+		dc.w SME_EVWmj_36A-SME_EVWmj, SME_EVWmj_374-SME_EVWmj	
+		dc.w SME_EVWmj_380-SME_EVWmj, SME_EVWmj_38E-SME_EVWmj	
+		dc.w SME_EVWmj_398-SME_EVWmj, SME_EVWmj_3A6-SME_EVWmj	
+		dc.w SME_EVWmj_3B4-SME_EVWmj, SME_EVWmj_3C2-SME_EVWmj	
+		dc.w SME_EVWmj_3CC-SME_EVWmj, SME_EVWmj_3D8-SME_EVWmj	
+		dc.w SME_EVWmj_3DE-SME_EVWmj, SME_EVWmj_3E4-SME_EVWmj	
+		dc.w SME_EVWmj_3EA-SME_EVWmj, SME_EVWmj_3F0-SME_EVWmj	
+		dc.w SME_EVWmj_3FC-SME_EVWmj, SME_EVWmj_406-SME_EVWmj	
+		dc.w SME_EVWmj_414-SME_EVWmj, SME_EVWmj_41E-SME_EVWmj	
+		dc.w SME_EVWmj_424-SME_EVWmj, SME_EVWmj_42A-SME_EVWmj	
+		dc.w SME_EVWmj_430-SME_EVWmj, SME_EVWmj_436-SME_EVWmj	
+		dc.w SME_EVWmj_442-SME_EVWmj, SME_EVWmj_44C-SME_EVWmj	
+		dc.w SME_EVWmj_45A-SME_EVWmj, SME_EVWmj_464-SME_EVWmj	
+		dc.w SME_EVWmj_468-SME_EVWmj, SME_EVWmj_46C-SME_EVWmj	
+		dc.w SME_EVWmj_470-SME_EVWmj, SME_EVWmj_474-SME_EVWmj	
+		dc.w SME_EVWmj_478-SME_EVWmj, SME_EVWmj_47A-SME_EVWmj	
+		dc.w SME_EVWmj_47C-SME_EVWmj, SME_EVWmj_47E-SME_EVWmj	
+		dc.w SME_EVWmj_480-SME_EVWmj, SME_EVWmj_482-SME_EVWmj	
+		dc.w SME_EVWmj_484-SME_EVWmj, SME_EVWmj_48C-SME_EVWmj	
+		dc.w SME_EVWmj_494-SME_EVWmj, SME_EVWmj_49C-SME_EVWmj	
+		dc.w SME_EVWmj_4A4-SME_EVWmj, SME_EVWmj_4A6-SME_EVWmj	
+		dc.w SME_EVWmj_4B0-SME_EVWmj, SME_EVWmj_4B8-SME_EVWmj	
+		dc.w SME_EVWmj_4BA-SME_EVWmj, SME_EVWmj_4BC-SME_EVWmj	
+		dc.w SME_EVWmj_4BE-SME_EVWmj, SME_EVWmj_4C0-SME_EVWmj	
+		dc.w SME_EVWmj_4C2-SME_EVWmj, SME_EVWmj_4C4-SME_EVWmj	
+		dc.w SME_EVWmj_4C6-SME_EVWmj, SME_EVWmj_4C8-SME_EVWmj	
+		dc.w SME_EVWmj_4CA-SME_EVWmj, SME_EVWmj_4CC-SME_EVWmj	
+		dc.w SME_EVWmj_4CE-SME_EVWmj, SME_EVWmj_4D0-SME_EVWmj	
+		dc.w SME_EVWmj_4D2-SME_EVWmj, SME_EVWmj_4E0-SME_EVWmj	
+		dc.w SME_EVWmj_4E2-SME_EVWmj, SME_EVWmj_4E4-SME_EVWmj	
+		dc.w SME_EVWmj_4E6-SME_EVWmj, SME_EVWmj_4E8-SME_EVWmj	
+		dc.w SME_EVWmj_4EA-SME_EVWmj, SME_EVWmj_4EC-SME_EVWmj	
+		dc.w SME_EVWmj_4EE-SME_EVWmj, SME_EVWmj_4F0-SME_EVWmj	
+		dc.w SME_EVWmj_4F2-SME_EVWmj, SME_EVWmj_4F4-SME_EVWmj	
+		dc.w SME_EVWmj_4F6-SME_EVWmj, SME_EVWmj_4F8-SME_EVWmj	
+		dc.w SME_EVWmj_4FA-SME_EVWmj, SME_EVWmj_4FC-SME_EVWmj	
+		dc.w SME_EVWmj_4FE-SME_EVWmj, SME_EVWmj_500-SME_EVWmj	
+		dc.w SME_EVWmj_502-SME_EVWmj, SME_EVWmj_504-SME_EVWmj	
+		dc.w SME_EVWmj_506-SME_EVWmj, SME_EVWmj_508-SME_EVWmj	
+		dc.w SME_EVWmj_50A-SME_EVWmj, SME_EVWmj_50C-SME_EVWmj	
+		dc.w SME_EVWmj_50E-SME_EVWmj, SME_EVWmj_510-SME_EVWmj	
+		dc.w SME_EVWmj_512-SME_EVWmj, SME_EVWmj_514-SME_EVWmj	
+		dc.w SME_EVWmj_516-SME_EVWmj, SME_EVWmj_518-SME_EVWmj	
+		dc.w SME_EVWmj_51A-SME_EVWmj, SME_EVWmj_51C-SME_EVWmj	
+		dc.w SME_EVWmj_51E-SME_EVWmj, SME_EVWmj_520-SME_EVWmj	
+		dc.w SME_EVWmj_522-SME_EVWmj, SME_EVWmj_524-SME_EVWmj	
+		dc.w SME_EVWmj_526-SME_EVWmj, SME_EVWmj_528-SME_EVWmj	
+		dc.w SME_EVWmj_52A-SME_EVWmj, SME_EVWmj_52C-SME_EVWmj	
+		dc.w SME_EVWmj_52E-SME_EVWmj, SME_EVWmj_530-SME_EVWmj	
+		dc.w SME_EVWmj_532-SME_EVWmj, SME_EVWmj_534-SME_EVWmj	
+		dc.w SME_EVWmj_536-SME_EVWmj, SME_EVWmj_538-SME_EVWmj	
+		dc.w SME_EVWmj_53A-SME_EVWmj, SME_EVWmj_53C-SME_EVWmj	
+		dc.w SME_EVWmj_53E-SME_EVWmj, SME_EVWmj_540-SME_EVWmj	
+		dc.w SME_EVWmj_542-SME_EVWmj, SME_EVWmj_544-SME_EVWmj	
+		dc.w SME_EVWmj_546-SME_EVWmj, SME_EVWmj_548-SME_EVWmj	
+		dc.w SME_EVWmj_54A-SME_EVWmj, SME_EVWmj_54C-SME_EVWmj	
+		dc.w SME_EVWmj_54E-SME_EVWmj, SME_EVWmj_550-SME_EVWmj	
+		dc.w SME_EVWmj_552-SME_EVWmj, SME_EVWmj_554-SME_EVWmj	
+		dc.w SME_EVWmj_556-SME_EVWmj, SME_EVWmj_558-SME_EVWmj	
+		dc.w SME_EVWmj_55A-SME_EVWmj, SME_EVWmj_55C-SME_EVWmj	
+		dc.w SME_EVWmj_55E-SME_EVWmj, SME_EVWmj_560-SME_EVWmj	
+		dc.w SME_EVWmj_562-SME_EVWmj, SME_EVWmj_564-SME_EVWmj	
+		dc.w SME_EVWmj_566-SME_EVWmj, SME_EVWmj_568-SME_EVWmj	
+		dc.w SME_EVWmj_56A-SME_EVWmj, SME_EVWmj_56C-SME_EVWmj	
+		dc.w SME_EVWmj_56E-SME_EVWmj, SME_EVWmj_570-SME_EVWmj	
+		dc.w SME_EVWmj_572-SME_EVWmj, SME_EVWmj_574-SME_EVWmj	
+		dc.w SME_EVWmj_576-SME_EVWmj, SME_EVWmj_578-SME_EVWmj	
+		dc.w SME_EVWmj_57A-SME_EVWmj, SME_EVWmj_57C-SME_EVWmj	
+		dc.w SME_EVWmj_57E-SME_EVWmj, SME_EVWmj_580-SME_EVWmj	
+		dc.w SME_EVWmj_582-SME_EVWmj, SME_EVWmj_584-SME_EVWmj	
+		dc.w SME_EVWmj_586-SME_EVWmj, SME_EVWmj_588-SME_EVWmj	
+		dc.w SME_EVWmj_58A-SME_EVWmj, SME_EVWmj_58C-SME_EVWmj	
+		dc.w SME_EVWmj_58E-SME_EVWmj, SME_EVWmj_590-SME_EVWmj	
+		dc.w SME_EVWmj_592-SME_EVWmj, SME_EVWmj_594-SME_EVWmj	
+		dc.w SME_EVWmj_596-SME_EVWmj, SME_EVWmj_598-SME_EVWmj	
+		dc.w SME_EVWmj_59A-SME_EVWmj, SME_EVWmj_59C-SME_EVWmj	
+		dc.w SME_EVWmj_59E-SME_EVWmj, SME_EVWmj_5A0-SME_EVWmj	
+		dc.w SME_EVWmj_5A2-SME_EVWmj, SME_EVWmj_5A4-SME_EVWmj	
+		dc.w SME_EVWmj_5A6-SME_EVWmj, SME_EVWmj_5A8-SME_EVWmj	
+		dc.w SME_EVWmj_5AA-SME_EVWmj, SME_EVWmj_5AC-SME_EVWmj	
+		dc.w SME_EVWmj_5AE-SME_EVWmj, SME_EVWmj_5B0-SME_EVWmj	
+		dc.w SME_EVWmj_5B2-SME_EVWmj, SME_EVWmj_5B4-SME_EVWmj	
+		dc.w SME_EVWmj_5B6-SME_EVWmj, SME_EVWmj_5C0-SME_EVWmj	
+		dc.w SME_EVWmj_5C8-SME_EVWmj, SME_EVWmj_5D0-SME_EVWmj	
+		dc.w SME_EVWmj_5D6-SME_EVWmj, SME_EVWmj_5D8-SME_EVWmj	
+		dc.w SME_EVWmj_5DA-SME_EVWmj, SME_EVWmj_5DC-SME_EVWmj	
+		dc.w SME_EVWmj_5DE-SME_EVWmj, SME_EVWmj_5E0-SME_EVWmj	
+		dc.w SME_EVWmj_5E2-SME_EVWmj, SME_EVWmj_5EA-SME_EVWmj	
+		dc.w SME_EVWmj_5F2-SME_EVWmj, SME_EVWmj_5FC-SME_EVWmj	
+		dc.w SME_EVWmj_606-SME_EVWmj, SME_EVWmj_60E-SME_EVWmj	
+		dc.w SME_EVWmj_614-SME_EVWmj, SME_EVWmj_61C-SME_EVWmj	
+		dc.w SME_EVWmj_626-SME_EVWmj, SME_EVWmj_62C-SME_EVWmj	
+		dc.w SME_EVWmj_634-SME_EVWmj, SME_EVWmj_63C-SME_EVWmj	
+		dc.w SME_EVWmj_646-SME_EVWmj, SME_EVWmj_64C-SME_EVWmj	
+		dc.w SME_EVWmj_654-SME_EVWmj, SME_EVWmj_65C-SME_EVWmj	
+		dc.w SME_EVWmj_664-SME_EVWmj, SME_EVWmj_66E-SME_EVWmj	
+		dc.w SME_EVWmj_676-SME_EVWmj, SME_EVWmj_680-SME_EVWmj	
+		dc.w SME_EVWmj_686-SME_EVWmj, SME_EVWmj_68C-SME_EVWmj	
+		dc.w SME_EVWmj_690-SME_EVWmj, SME_EVWmj_694-SME_EVWmj	
+		dc.w SME_EVWmj_698-SME_EVWmj, SME_EVWmj_69C-SME_EVWmj	
+		dc.w SME_EVWmj_6A0-SME_EVWmj, SME_EVWmj_6A4-SME_EVWmj	
+		dc.w SME_EVWmj_6AC-SME_EVWmj, SME_EVWmj_6B4-SME_EVWmj	
+		dc.w SME_EVWmj_6BE-SME_EVWmj, SME_EVWmj_6C8-SME_EVWmj	
+		dc.w SME_EVWmj_6D2-SME_EVWmj, SME_EVWmj_6D8-SME_EVWmj	
+		dc.w SME_EVWmj_6E2-SME_EVWmj, SME_EVWmj_6EC-SME_EVWmj	
+		dc.w SME_EVWmj_6F2-SME_EVWmj, SME_EVWmj_6F8-SME_EVWmj	
+		dc.w SME_EVWmj_6FE-SME_EVWmj, SME_EVWmj_704-SME_EVWmj	
+		dc.w SME_EVWmj_70A-SME_EVWmj, SME_EVWmj_716-SME_EVWmj	
+		dc.w SME_EVWmj_71E-SME_EVWmj, SME_EVWmj_72A-SME_EVWmj	
+		dc.w SME_EVWmj_732-SME_EVWmj, SME_EVWmj_738-SME_EVWmj	
+		dc.w SME_EVWmj_73E-SME_EVWmj, SME_EVWmj_744-SME_EVWmj	
+		dc.w SME_EVWmj_74A-SME_EVWmj, SME_EVWmj_754-SME_EVWmj	
+		dc.w SME_EVWmj_75C-SME_EVWmj, SME_EVWmj_768-SME_EVWmj	
+		dc.w SME_EVWmj_770-SME_EVWmj, SME_EVWmj_778-SME_EVWmj	
+		dc.w SME_EVWmj_782-SME_EVWmj, SME_EVWmj_78E-SME_EVWmj	
+		dc.w SME_EVWmj_798-SME_EVWmj, SME_EVWmj_7A4-SME_EVWmj	
+		dc.w SME_EVWmj_7AE-SME_EVWmj, SME_EVWmj_7B6-SME_EVWmj	
+		dc.w SME_EVWmj_7C0-SME_EVWmj, SME_EVWmj_7C8-SME_EVWmj	
+		dc.w SME_EVWmj_7D2-SME_EVWmj, SME_EVWmj_7DE-SME_EVWmj	
+		dc.w SME_EVWmj_7EA-SME_EVWmj, SME_EVWmj_7F6-SME_EVWmj	
+		dc.w SME_EVWmj_802-SME_EVWmj, SME_EVWmj_80E-SME_EVWmj	
+		dc.w SME_EVWmj_81A-SME_EVWmj, SME_EVWmj_826-SME_EVWmj	
+		dc.w SME_EVWmj_832-SME_EVWmj, SME_EVWmj_83E-SME_EVWmj	
+		dc.w SME_EVWmj_84A-SME_EVWmj, SME_EVWmj_856-SME_EVWmj	
+		dc.w SME_EVWmj_862-SME_EVWmj, SME_EVWmj_868-SME_EVWmj	
+		dc.w SME_EVWmj_874-SME_EVWmj, SME_EVWmj_87E-SME_EVWmj	
+		dc.w SME_EVWmj_888-SME_EVWmj, SME_EVWmj_88E-SME_EVWmj	
+		dc.w SME_EVWmj_89A-SME_EVWmj	
+SME_EVWmj_246:	dc.b 0, 0	
+SME_EVWmj_248:	dc.b 0, 4, $20, 0, $70, 3, $20, $B, $20, $E	
+SME_EVWmj_252:	dc.b 0, 0	
+SME_EVWmj_254:	dc.b 0, 3, $50, $11, $50, $17, $20, $1D	
+SME_EVWmj_25C:	dc.b 0, 3, $50, $20, $50, $17, $20, $1D	
+SME_EVWmj_264:	dc.b 0, 3, $50, $20, $50, $17, $20, $26	
+SME_EVWmj_26C:	dc.b 0, 0	
+SME_EVWmj_26E:	dc.b 0, 0	
+SME_EVWmj_270:	dc.b 0, 0	
+SME_EVWmj_272:	dc.b 0, 0	
+SME_EVWmj_274:	dc.b 0, 0	
+SME_EVWmj_276:	dc.b 0, 0	
+SME_EVWmj_278:	dc.b 0, 3, $80, $29, $20, $B, $20, $E	
+SME_EVWmj_280:	dc.b 0, 5, $20, $32, $30, $35, $50, $39, $50, $3F, $10, $45	
+SME_EVWmj_28C:	dc.b 0, 3, $20, $32, $30, $35, $B0, $47	
+SME_EVWmj_294:	dc.b 0, 3, $80, $53, $50, $5C, 0, $62	
+SME_EVWmj_29C:	dc.b 0, 2, $20, $63, $B0, $66	
+SME_EVWmj_2A2:	dc.b 0, 5, $20, $63, $20, $72, $50, $75, $50, $7B, $10, $81	
+SME_EVWmj_2AE:	dc.b 0, 3, $20, $63, $B0, $83, $20, $8F	
+SME_EVWmj_2B6:	dc.b 0, 3, $80, $92, $50, $9B, 0, $A1	
+SME_EVWmj_2BE:	dc.b 0, 4, $20, $32, $30, $35, $30, $A2, $50, $A6	
+SME_EVWmj_2C8:	dc.b 0, 5, $30, $AC, $30, $B0, $50, $B4, $50, $BA, 0, $C0	
+SME_EVWmj_2D4:	dc.b 0, 6, $30, $AC, $30, $B0, $30, $C1, 0, $C5, $30, $C6, $50, $CA	
+SME_EVWmj_2E2:	dc.b 0, 4, $B0, $D0, $10, $DC, $30, $DE, 0, $E2	
+SME_EVWmj_2EC:	dc.b 0, 6, $30, $E3, $10, $E7, $70, $E9, 0, $F1, 0, $F2, $20, $F3	
+SME_EVWmj_2FA:	dc.b 0, 6, $30, $E3, $10, $E7, $80, $F6, 0, $F1, $10, $FF, $31, 1	
+SME_EVWmj_308:	dc.b 0, 6, $30, $E3, $10, $E7, $71, 5, 0, $F1, 1, $D, $21, $E	
+SME_EVWmj_316:	dc.b 0, 4, $B1, $11, 1, $1D, $51, $1E, 1, $24	
+SME_EVWmj_320:	dc.b 0, 5, $30, $AC, $30, $B0, $71, $25, 1, $2D, $21, $2E	
+SME_EVWmj_32C:	dc.b 0, 5, $51, $31, $11, $37, $21, $39, $31, $3C, $51, $40	
+SME_EVWmj_338:	dc.b 0, 3, $B1, $46, $21, $39, $31, $3C	
+SME_EVWmj_340:	dc.b 0, 3, 1, $52, $81, $53, $51, $5C	
+SME_EVWmj_348:	dc.b 0, 2, $21, $62, $B1, $65	
+SME_EVWmj_34E:	dc.b 0, 5, $51, $71, $11, $77, $21, $62, $21, $65, $51, $79	
+SME_EVWmj_35A:	dc.b 0, 3, $21, $62, $B1, $7F, $21, $8B	
+SME_EVWmj_362:	dc.b 0, 3, 1, $8E, $81, $8F, $51, $98	
+SME_EVWmj_36A:	dc.b 0, 4, $21, $39, $31, $3C, $31, $9E, $51, $A2	
+SME_EVWmj_374:	dc.b 0, 5, $31, $A8, $51, $AC, $31, $B2, $51, $B6, 1, $BC	
+SME_EVWmj_380:	dc.b 0, 6, 1, $BD, $31, $BE, $31, $A8, $31, $C2, $31, $B2, $51, $C6	
+SME_EVWmj_38E:	dc.b 0, 4, $B1, $CC, $11, $D8, $31, $DA, 1, $DE	
+SME_EVWmj_398:	dc.b 0, 6, $21, $DF, $31, $E2, $71, $E6, $11, $EE, 1, $F0, 1, $F1	
+SME_EVWmj_3A6:	dc.b 0, 6, $81, $F2, $31, $FB, $31, $E2, $11, $EE, 1, $F0, $11, $FF	
+SME_EVWmj_3B4:	dc.b 0, 6, $22, 1, $31, $E2, $72, 4, $11, $EE, 1, $F0, 2, $C	
+SME_EVWmj_3C2:	dc.b 0, 4, $B2, $D, 2, $19, $52, $1A, 2, $20	
+SME_EVWmj_3CC:	dc.b 0, 5, $22, $21, $31, $A8, $72, $24, $31, $B2, 2, $2C	
+SME_EVWmj_3D8:	dc.b 0, 2, $52, $2D, $B2, $33	
+SME_EVWmj_3DE:	dc.b 0, 2, $52, $3F, $B2, $45	
+SME_EVWmj_3E4:	dc.b 0, 2, $52, $2D, $B2, $51	
+SME_EVWmj_3EA:	dc.b 0, 2, $52, $3F, $B2, $5D	
+SME_EVWmj_3F0:	dc.b 0, 5, $22, $69, $22, $6C, 2, $6F, 2, $70, $B2, $71	
+SME_EVWmj_3FC:	dc.b 0, 4, $32, $7D, $22, $81, 2, $84, $B2, $85	
+SME_EVWmj_406:	dc.b 0, 6, $22, $69, $22, $6C, 2, $91, 2, $70, $72, $92, $22, $9A	
+SME_EVWmj_414:	dc.b 0, 4, $32, $7D, $22, $81, 2, $84, $B2, $9D	
+SME_EVWmj_41E:	dc.b 0, 2, $52, $A9, $B2, $AF	
+SME_EVWmj_424:	dc.b 0, 2, $51, $62, $B2, $BB	
+SME_EVWmj_42A:	dc.b 0, 2, $52, $A9, $B2, $C7	
+SME_EVWmj_430:	dc.b 0, 2, $51, $62, $B2, $D3	
+SME_EVWmj_436:	dc.b 0, 5, $22, $DF, 2, $E2, $22, $E3, $B2, $E6, 2, $F2	
+SME_EVWmj_442:	dc.b 0, 4, $32, $F3, 2, $F7, $22, $F8, $B2, $FB	
+SME_EVWmj_44C:	dc.b 0, 6, $22, $DF, 3, 7, $22, $E3, $73, 8, 2, $F2, $23, $10	
+SME_EVWmj_45A:	dc.b 0, 4, $32, $F3, 2, $F7, $22, $F8, $B3, $13	
+SME_EVWmj_464:	dc.b 0, 1, $F3, $1F	
+SME_EVWmj_468:	dc.b 0, 1, $F3, $2F	
+SME_EVWmj_46C:	dc.b 0, 1, $F3, $3F	
+SME_EVWmj_470:	dc.b 0, 1, $F3, $4F	
+SME_EVWmj_474:	dc.b 0, 1, $F3, $5F	
+SME_EVWmj_478:	dc.b 0, 0	
+SME_EVWmj_47A:	dc.b 0, 0	
+SME_EVWmj_47C:	dc.b 0, 0	
+SME_EVWmj_47E:	dc.b 0, 0	
+SME_EVWmj_480:	dc.b 0, 0	
+SME_EVWmj_482:	dc.b 0, 0	
+SME_EVWmj_484:	dc.b 0, 3, $53, $6F, $83, $75, $13, $7E	
+SME_EVWmj_48C:	dc.b 0, 3, $53, $6F, $53, $80, $13, $86	
+SME_EVWmj_494:	dc.b 0, 3, $53, $6F, $83, $88, $13, $91	
+SME_EVWmj_49C:	dc.b 0, 3, $53, $6F, $53, $93, $13, $99	
+SME_EVWmj_4A4:	dc.b 0, 0	
+SME_EVWmj_4A6:	dc.b 0, 4, $13, $9B, 3, $9D, $83, $9E, $13, $A7	
+SME_EVWmj_4B0:	dc.b 0, 3, $23, $A9, $B3, $AC, $23, $B8	
+SME_EVWmj_4B8:	dc.b 0, 0	
+SME_EVWmj_4BA:	dc.b 0, 0	
+SME_EVWmj_4BC:	dc.b 0, 0	
+SME_EVWmj_4BE:	dc.b 0, 0	
+SME_EVWmj_4C0:	dc.b 0, 0	
+SME_EVWmj_4C2:	dc.b 0, 0	
+SME_EVWmj_4C4:	dc.b 0, 0	
+SME_EVWmj_4C6:	dc.b 0, 0	
+SME_EVWmj_4C8:	dc.b 0, 0	
+SME_EVWmj_4CA:	dc.b 0, 0	
+SME_EVWmj_4CC:	dc.b 0, 0	
+SME_EVWmj_4CE:	dc.b 0, 0	
+SME_EVWmj_4D0:	dc.b 0, 0	
+SME_EVWmj_4D2:	dc.b 0, 6, $73, $BB, $13, $C3, $23, $C5, $53, $C8, 3, $CE, 3, $CF	
+SME_EVWmj_4E0:	dc.b 0, 0	
+SME_EVWmj_4E2:	dc.b 0, 0	
+SME_EVWmj_4E4:	dc.b 0, 0	
+SME_EVWmj_4E6:	dc.b 0, 0	
+SME_EVWmj_4E8:	dc.b 0, 0	
+SME_EVWmj_4EA:	dc.b 0, 0	
+SME_EVWmj_4EC:	dc.b 0, 0	
+SME_EVWmj_4EE:	dc.b 0, 0	
+SME_EVWmj_4F0:	dc.b 0, 0	
+SME_EVWmj_4F2:	dc.b 0, 0	
+SME_EVWmj_4F4:	dc.b 0, 0	
+SME_EVWmj_4F6:	dc.b 0, 0	
+SME_EVWmj_4F8:	dc.b 0, 0	
+SME_EVWmj_4FA:	dc.b 0, 0	
+SME_EVWmj_4FC:	dc.b 0, 0	
+SME_EVWmj_4FE:	dc.b 0, 0	
+SME_EVWmj_500:	dc.b 0, 0	
+SME_EVWmj_502:	dc.b 0, 0	
+SME_EVWmj_504:	dc.b 0, 0	
+SME_EVWmj_506:	dc.b 0, 0	
+SME_EVWmj_508:	dc.b 0, 0	
+SME_EVWmj_50A:	dc.b 0, 0	
+SME_EVWmj_50C:	dc.b 0, 0	
+SME_EVWmj_50E:	dc.b 0, 0	
+SME_EVWmj_510:	dc.b 0, 0	
+SME_EVWmj_512:	dc.b 0, 0	
+SME_EVWmj_514:	dc.b 0, 0	
+SME_EVWmj_516:	dc.b 0, 0	
+SME_EVWmj_518:	dc.b 0, 0	
+SME_EVWmj_51A:	dc.b 0, 0	
+SME_EVWmj_51C:	dc.b 0, 0	
+SME_EVWmj_51E:	dc.b 0, 0	
+SME_EVWmj_520:	dc.b 0, 0	
+SME_EVWmj_522:	dc.b 0, 0	
+SME_EVWmj_524:	dc.b 0, 0	
+SME_EVWmj_526:	dc.b 0, 0	
+SME_EVWmj_528:	dc.b 0, 0	
+SME_EVWmj_52A:	dc.b 0, 0	
+SME_EVWmj_52C:	dc.b 0, 0	
+SME_EVWmj_52E:	dc.b 0, 0	
+SME_EVWmj_530:	dc.b 0, 0	
+SME_EVWmj_532:	dc.b 0, 0	
+SME_EVWmj_534:	dc.b 0, 0	
+SME_EVWmj_536:	dc.b 0, 0	
+SME_EVWmj_538:	dc.b 0, 0	
+SME_EVWmj_53A:	dc.b 0, 0	
+SME_EVWmj_53C:	dc.b 0, 0	
+SME_EVWmj_53E:	dc.b 0, 0	
+SME_EVWmj_540:	dc.b 0, 0	
+SME_EVWmj_542:	dc.b 0, 0	
+SME_EVWmj_544:	dc.b 0, 0	
+SME_EVWmj_546:	dc.b 0, 0	
+SME_EVWmj_548:	dc.b 0, 0	
+SME_EVWmj_54A:	dc.b 0, 0	
+SME_EVWmj_54C:	dc.b 0, 0	
+SME_EVWmj_54E:	dc.b 0, 0	
+SME_EVWmj_550:	dc.b 0, 0	
+SME_EVWmj_552:	dc.b 0, 0	
+SME_EVWmj_554:	dc.b 0, 0	
+SME_EVWmj_556:	dc.b 0, 0	
+SME_EVWmj_558:	dc.b 0, 0	
+SME_EVWmj_55A:	dc.b 0, 0	
+SME_EVWmj_55C:	dc.b 0, 0	
+SME_EVWmj_55E:	dc.b 0, 0	
+SME_EVWmj_560:	dc.b 0, 0	
+SME_EVWmj_562:	dc.b 0, 0	
+SME_EVWmj_564:	dc.b 0, 0	
+SME_EVWmj_566:	dc.b 0, 0	
+SME_EVWmj_568:	dc.b 0, 0	
+SME_EVWmj_56A:	dc.b 0, 0	
+SME_EVWmj_56C:	dc.b 0, 0	
+SME_EVWmj_56E:	dc.b 0, 0	
+SME_EVWmj_570:	dc.b 0, 0	
+SME_EVWmj_572:	dc.b 0, 0	
+SME_EVWmj_574:	dc.b 0, 0	
+SME_EVWmj_576:	dc.b 0, 0	
+SME_EVWmj_578:	dc.b 0, 0	
+SME_EVWmj_57A:	dc.b 0, 0	
+SME_EVWmj_57C:	dc.b 0, 0	
+SME_EVWmj_57E:	dc.b 0, 0	
+SME_EVWmj_580:	dc.b 0, 0	
+SME_EVWmj_582:	dc.b 0, 0	
+SME_EVWmj_584:	dc.b 0, 0	
+SME_EVWmj_586:	dc.b 0, 0	
+SME_EVWmj_588:	dc.b 0, 0	
+SME_EVWmj_58A:	dc.b 0, 0	
+SME_EVWmj_58C:	dc.b 0, 0	
+SME_EVWmj_58E:	dc.b 0, 0	
+SME_EVWmj_590:	dc.b 0, 0	
+SME_EVWmj_592:	dc.b 0, 0	
+SME_EVWmj_594:	dc.b 0, 0	
+SME_EVWmj_596:	dc.b 0, 0	
+SME_EVWmj_598:	dc.b 0, 0	
+SME_EVWmj_59A:	dc.b 0, 0	
+SME_EVWmj_59C:	dc.b 0, 0	
+SME_EVWmj_59E:	dc.b 0, 0	
+SME_EVWmj_5A0:	dc.b 0, 0	
+SME_EVWmj_5A2:	dc.b 0, 0	
+SME_EVWmj_5A4:	dc.b 0, 0	
+SME_EVWmj_5A6:	dc.b 0, 0	
+SME_EVWmj_5A8:	dc.b 0, 0	
+SME_EVWmj_5AA:	dc.b 0, 0	
+SME_EVWmj_5AC:	dc.b 0, 0	
+SME_EVWmj_5AE:	dc.b 0, 0	
+SME_EVWmj_5B0:	dc.b 0, 0	
+SME_EVWmj_5B2:	dc.b 0, 0	
+SME_EVWmj_5B4:	dc.b 0, 0	
+SME_EVWmj_5B6:	dc.b 0, 4, $23, $D0, $B3, $D3, 3, $DF, $33, $E0	
+SME_EVWmj_5C0:	dc.b 0, 3, $23, $D0, $23, $E4, $F3, $E7	
+SME_EVWmj_5C8:	dc.b 0, 3, $B3, $F7, $34, 3, $34, 7	
+SME_EVWmj_5D0:	dc.b 0, 2, $B4, $B, $74, $17	
+SME_EVWmj_5D6:	dc.b 0, 0	
+SME_EVWmj_5D8:	dc.b 0, 0	
+SME_EVWmj_5DA:	dc.b 0, 0	
+SME_EVWmj_5DC:	dc.b 0, 0	
+SME_EVWmj_5DE:	dc.b 0, 0	
+SME_EVWmj_5E0:	dc.b 0, 0	
+SME_EVWmj_5E2:	dc.b 0, 3, $54, $1F, $54, $25, $54, $2B	
+SME_EVWmj_5EA:	dc.b 0, 3, $54, $31, $84, $37, $14, $40	
+SME_EVWmj_5F2:	dc.b 0, 4, $54, $42, $74, $48, $14, $50, 4, $52	
+SME_EVWmj_5FC:	dc.b 0, 4, $24, $53, $B4, $56, $14, $62, $24, $64	
+SME_EVWmj_606:	dc.b 0, 3, $54, $67, $74, $6D, $24, $75	
+SME_EVWmj_60E:	dc.b 0, 2, $F4, $78, $14, $88	
+SME_EVWmj_614:	dc.b 0, 3, $F4, $78, $14, $8A, $14, $88	
+SME_EVWmj_61C:	dc.b 0, 4, $20, 0, $74, $8C, $20, $B, $20, $E	
+SME_EVWmj_626:	dc.b 0, 2, $B4, $94, $34, $A0	
+SME_EVWmj_62C:	dc.b 0, 3, $84, $A4, $14, $AD, $34, $A0	
+SME_EVWmj_634:	dc.b 0, 3, $84, $AF, $14, $AD, $34, $A0	
+SME_EVWmj_63C:	dc.b 0, 4, 4, $B8, $74, $B9, $84, $C1, 4, $A3	
+SME_EVWmj_646:	dc.b 0, 2, $14, $CA, $F4, $CC	
+SME_EVWmj_64C:	dc.b 0, 3, $14, $DC, $14, $DE, $F4, $E0	
+SME_EVWmj_654:	dc.b 0, 3, $84, $F0, $34, $F9, $54, $FD	
+SME_EVWmj_65C:	dc.b 0, 3, $B5, 3, $55, $F, 5, $15	
+SME_EVWmj_664:	dc.b 0, 4, $55, $16, $15, $1C, $85, $1E, $15, $27	
+SME_EVWmj_66E:	dc.b 0, 3, $B5, 3, $55, $F, 5, $15	
+SME_EVWmj_676:	dc.b 0, 4, $55, $29, $15, $2F, $85, $31, $15, $2F	
+SME_EVWmj_680:	dc.b 0, 2, $F5, $3A, $35, $4A	
+SME_EVWmj_686:	dc.b 0, 2, $F5, $3A, $35, $4A	
+SME_EVWmj_68C:	dc.b 0, 1, $F5, $4E	
+SME_EVWmj_690:	dc.b 0, 1, $F5, $5E	
+SME_EVWmj_694:	dc.b 0, 1, $F5, $6E	
+SME_EVWmj_698:	dc.b 0, 1, $F5, $7E	
+SME_EVWmj_69C:	dc.b 0, 1, $F5, $8E	
+SME_EVWmj_6A0:	dc.b 0, 1, $F5, $9E	
+SME_EVWmj_6A4:	dc.b 0, 3, $35, $AE, $75, $B2, $35, $BA	
+SME_EVWmj_6AC:	dc.b 0, 3, $B5, $BE, $25, $CA, $55, $CD	
+SME_EVWmj_6B4:	dc.b 0, 4, $B5, $D3, $15, $DF, $35, $E1, 5, $E5	
+SME_EVWmj_6BE:	dc.b 0, 4, $B5, $E6, $15, $DF, $35, $F2, 5, $E5	
+SME_EVWmj_6C8:	dc.b 0, 4, $B5, $F6, $26, 2, $26, 5, $16, 8	
+SME_EVWmj_6D2:	dc.b 0, 2, $B6, $A, $36, $16	
+SME_EVWmj_6D8:	dc.b 0, 4, $16, $1A, $56, $1C, $76, $22, $26, $2A	
+SME_EVWmj_6E2:	dc.b 0, 4, $16, $1A, $56, $1C, $76, $22, $26, $2A	
+SME_EVWmj_6EC:	dc.b 0, 2, $B6, $A, $36, $16	
+SME_EVWmj_6F2:	dc.b 0, 2, $26, $2D, $F6, $30	
+SME_EVWmj_6F8:	dc.b 0, 2, $26, $40, $F6, $43	
+SME_EVWmj_6FE:	dc.b 0, 2, $26, $53, $F6, $56	
+SME_EVWmj_704:	dc.b 0, 2, $16, $66, $F6, $68	
+SME_EVWmj_70A:	dc.b 0, 5, $26, $78, $B6, $7B, $26, $87, $36, $8A, 6, $8E	
+SME_EVWmj_716:	dc.b 0, 3, $26, $8F, $F6, $92, $16, $A2	
+SME_EVWmj_71E:	dc.b 0, 5, $26, $A4, $B6, $A7, $26, $B3, $36, $B6, 6, $BA	
+SME_EVWmj_72A:	dc.b 0, 3, $26, $BB, $F6, $BE, $16, $CE	
+SME_EVWmj_732:	dc.b 0, 2, $F6, $D0, $26, $E0	
+SME_EVWmj_738:	dc.b 0, 2, $F6, $E3, $26, $F3	
+SME_EVWmj_73E:	dc.b 0, 2, $F6, $F6, $27, 6	
+SME_EVWmj_744:	dc.b 0, 2, $F7, 9, $17, $19	
+SME_EVWmj_74A:	dc.b 0, 4, $57, $1B, $27, $21, $B7, $24, $17, $30	
+SME_EVWmj_754:	dc.b 0, 3, $17, $32, $27, $34, $F7, $37	
+SME_EVWmj_75C:	dc.b 0, 5, $27, $47, $27, $4A, $B7, $4D, $17, $59, $27, $5B	
+SME_EVWmj_768:	dc.b 0, 3, $17, $5E, $27, $60, $F7, $63	
+SME_EVWmj_770:	dc.b 0, 3, $B7, $73, 7, $7F, $57, $80	
+SME_EVWmj_778:	dc.b 0, 4, $87, $86, 7, $7F, $17, $8F, $57, $80	
+SME_EVWmj_782:	dc.b 0, 5, $27, $91, $37, $94, 7, $98, $27, $99, $B7, $9C	
+SME_EVWmj_78E:	dc.b 0, 4, $57, $A8, 7, $98, $27, $AE, $B7, $B1	
+SME_EVWmj_798:	dc.b 0, 5, $27, $91, $37, $94, 7, $98, $B7, $BD, $17, $C9	
+SME_EVWmj_7A4:	dc.b 0, 4, $57, $A8, 7, $98, $B7, $CB, $17, $D7	
+SME_EVWmj_7AE:	dc.b 0, 3, $57, $D9, 7, $DF, $87, $E0	
+SME_EVWmj_7B6:	dc.b 0, 4, $57, $E9, 7, $EF, $57, $F0, $17, $F6	
+SME_EVWmj_7C0:	dc.b 0, 3, $57, $D9, 7, $DF, $B7, $F8	
+SME_EVWmj_7C8:	dc.b 0, 4, $57, $E9, 7, $EF, 8, 4, $88, 5	
+SME_EVWmj_7D2:	dc.b 0, 5, $28, $E, $28, $11, 8, $14, $78, $15, $18, $1D	
+SME_EVWmj_7DE:	dc.b 0, 5, $28, $1F, $28, $22, 8, $25, $78, $26, $28, $2E	
+SME_EVWmj_7EA:	dc.b 0, 5, $28, $E, $28, $11, 8, $31, $78, $32, $18, $3A	
+SME_EVWmj_7F6:	dc.b 0, 5, $28, $1F, $28, $22, 8, $25, $78, $3C, $18, $44	
+SME_EVWmj_802:	dc.b 0, 5, $28, $E, $28, $11, 8, $14, $78, $15, $18, $1D	
+SME_EVWmj_80E:	dc.b 0, 5, $28, $1F, $28, $22, 8, $25, $78, $26, $28, $2E	
+SME_EVWmj_81A:	dc.b 0, 5, $28, $E, $28, $11, 8, $31, $78, $32, $18, $3A	
+SME_EVWmj_826:	dc.b 0, 5, $28, $1F, $28, $22, 8, $25, $78, $3C, $18, $44	
+SME_EVWmj_832:	dc.b 0, 5, $38, $46, $28, $4A, $18, $4D, $58, $4F, $18, $55	
+SME_EVWmj_83E:	dc.b 0, 5, $38, $57, $18, $5B, $18, $5D, $78, $5F, 8, $67	
+SME_EVWmj_84A:	dc.b 0, 5, $38, $68, $18, $6C, $28, $6E, $58, $71, 8, $77	
+SME_EVWmj_856:	dc.b 0, 5, $38, $57, $18, $78, $18, $7A, $78, $7C, 8, $84	
+SME_EVWmj_862:	dc.b 0, 2, $78, $85, $B8, $8D	
+SME_EVWmj_868:	dc.b 0, 5, $31, $52, $21, $56, 1, $59, $71, $5A, $28, $99	
+SME_EVWmj_874:	dc.b 0, 4, $78, $85, 1, $5A, $58, $9C, $18, $A2	
+SME_EVWmj_87E:	dc.b 0, 4, $31, $52, $21, $56, $28, $A4, $88, $A7	
+SME_EVWmj_888:	dc.b 0, 2, $78, $85, $B8, $8D	
+SME_EVWmj_88E:	dc.b 0, 5, $31, $52, $21, $56, 1, $59, $71, $5A, $28, $99	
+SME_EVWmj_89A:	dc.b 0, 4, $78, $85, 1, $5A, $58, $9C, $18, $A2	
+		even

@@ -2525,9 +2525,9 @@ SonAni_Wait:
 	rev02even
 SonAni_Balance:	dc.b   9,$CC,$CD,$CE,$CD,$FF
 	rev02even
-SonAni_LookUp:	dc.b   5, $B, $C,$FE,  1
+SonAni_LookUp:	dc.b   $3F, $C, $FF
 	rev02even
-SonAni_Duck:	dc.b   5,$4C,$4D,$FE,  1
+SonAni_Duck:	dc.b   $3F, $4D, $FF
 	rev02even
 SonAni_Spindash:dc.b   0,$42,$43,$42,$44,$42,$45,$42,$46,$42,$47,$FF
 	rev02even

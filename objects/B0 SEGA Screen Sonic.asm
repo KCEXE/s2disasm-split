@@ -91,10 +91,10 @@ ObjB0_Init:
 	rts
 ; ===========================================================================
 off_3A294:
-	dc.l MapRUnc_Sonic.frame45
-	dc.l MapRUnc_Sonic.frame46
-	dc.l MapRUnc_Sonic.frame47
-	dc.l MapRUnc_Sonic.frame48
+;	dc.l MapRUnc_Sonic.frame45
+;	dc.l MapRUnc_Sonic.frame46
+;	dc.l MapRUnc_Sonic.frame47
+;	dc.l MapRUnc_Sonic.frame48
 
 map_piece macro width,height
 	dc.l copysrc,copydst
