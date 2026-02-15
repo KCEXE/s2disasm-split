@@ -4879,10 +4879,10 @@ Level_TtlCard:
 	move.w	#$60,(WaterSurface1+x_pos).w ; set horizontal offset
 	move.b	#ObjID_WaterSurface,(WaterSurface2+id).w ; load Obj04 (water surface) at $FFFFB3C0
 	move.w	#$120,(WaterSurface2+x_pos).w ; set different horizontal offset
-+
-	cmpi.b	#chemical_plant_zone,(Current_Zone).w	; check if zone == CPZ
-	bne.s	+			; branch if not
-	move.b	#ObjID_CPZPylon,(CPZPylon+id).w ; load Obj7C (CPZ pylon) at $FFFFB340
+;+
+;	cmpi.b	#chemical_plant_zone,(Current_Zone).w	; check if zone == CPZ
+;	bne.s	+			; branch if not
+;	move.b	#ObjID_CPZPylon,(CPZPylon+id).w ; load Obj7C (CPZ pylon) at $FFFFB340
 +
 	cmpi.b	#oil_ocean_zone,(Current_Zone).w	; check if zone == OOZ
 	bne.s	Level_ClrHUD		; branch if not
