@@ -2632,7 +2632,7 @@ PalCycle: zoneOrderedOffsetTable 2,1
 	zoneOffsetTableEntry.w PalCycle_OOZ	; OOZ
 	zoneOffsetTableEntry.w PalCycle_MCZ	; MCZ
 	zoneOffsetTableEntry.w PalCycle_CNZ	; CNZ
-	zoneOffsetTableEntry.w PalCycle_CPZ	; CPZ
+	zoneOffsetTableEntry.w PalCycle_Null	; CPZ
 	zoneOffsetTableEntry.w PalCycle_CPZ	; DEZ
 	zoneOffsetTableEntry.w PalCycle_ARZ	; ARZ
 	zoneOffsetTableEntry.w PalCycle_WFZ	; SCZ
