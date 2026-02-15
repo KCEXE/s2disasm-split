@@ -10,7 +10,6 @@
 8B - MCZ
 8C - EHZ 2P
 8D - SCZ
-8E - CPZ
 8F - WFZ
 90 - HPZ
 91 - Options

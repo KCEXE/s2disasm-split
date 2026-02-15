@@ -22953,12 +22953,14 @@ SndDAC_End
 ; ---------------------------------------------------------------------------
 ; loc_F0000:
 MusicPoint1:	startBank
+MusPtr_CPZ:		rom_ptr_z80	Mus_CPZ
 MusPtr_MTZ:		rom_ptr_z80	Mus_MTZ
 MusPtr_Continue:	rom_ptr_z80	Mus_Continue
 
 
 Mus_Continue:   BINCLUDE	"sound/music/compressed/9C - Continue.sax"
 Mus_MTZ:		include		"sound/music/85 - MTZ.asm"
+Mus_CPZ:		include		"sound/music/8E - CPZ.asm"
 
 	finishBank
 
@@ -23066,7 +23068,7 @@ MusPtr_SpecStage:	rom_ptr_z80	Mus_SpecStage
 MusPtr_Options:		rom_ptr_z80	Mus_Options
 MusPtr_Ending:		rom_ptr_z80	Mus_Ending
 MusPtr_EndBoss:		rom_ptr_z80	Mus_EndBoss
-MusPtr_CPZ:		rom_ptr_z80	Mus_CPZ
+;MusPtr_CPZ:		rom_ptr_z80	Mus_CPZ
 MusPtr_Boss:		rom_ptr_z80	Mus_Boss
 MusPtr_SCZ:		rom_ptr_z80	Mus_SCZ
 MusPtr_OOZ:		rom_ptr_z80	Mus_OOZ
@@ -23101,7 +23103,7 @@ Mus_SpecStage:	BINCLUDE	"sound/music/compressed/92 - Special Stage.sax"
 Mus_Options:	BINCLUDE	"sound/music/compressed/91 - Options.sax"
 Mus_Ending:	BINCLUDE	"sound/music/compressed/95 - Ending.sax"
 Mus_EndBoss:	BINCLUDE	"sound/music/compressed/94 - Final Boss.sax"
-Mus_CPZ:	BINCLUDE	"sound/music/compressed/8E - CPZ.sax"
+;Mus_CPZ:	BINCLUDE	"sound/music/compressed/8E - CPZ.sax"
 Mus_Boss:	BINCLUDE	"sound/music/compressed/93 - Boss.sax"
 Mus_SCZ:	BINCLUDE	"sound/music/compressed/8D - SCZ.sax"
 Mus_OOZ:	BINCLUDE	"sound/music/compressed/84 - OOZ.sax"

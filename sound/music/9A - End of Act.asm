@@ -2,7 +2,7 @@ Snd_ActClearS3_Header:
 	smpsHeaderStartSong 3
 	smpsHeaderVoice     Snd_ActClearS3_Voices
 	smpsHeaderChan      $06, $03
-	smpsHeaderTempo     $01, $25
+	smpsHeaderTempo     $01, $25+19
 
 	smpsHeaderDAC       Snd_ActClearS3_DAC
 	smpsHeaderFM        Snd_ActClearS3_FM1,	$0C, $12
